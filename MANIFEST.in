@@ -1,0 +1,6 @@
+include *.rst
+include AUTHORS
+include LICENSE
+recursive-include src/wshop/templates *.txt *.html
+recursive-include src/wshop/static *
+recursive-include src/wshop/locale *.po *.mo

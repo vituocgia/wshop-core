@@ -1,0 +1,5 @@
+[run]
+source = wshop
+omit =
+    *migrations*
+    */wshop/test/*

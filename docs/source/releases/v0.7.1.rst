@@ -1,0 +1,18 @@
+=========================
+Wshop 0.7.1 release notes
+=========================
+
+This is Wshop 0.7.1, a nano-release to squash one gremlin in 0.7 that affects
+`wshop-paypal`_.
+
+Bug fixes
+=========
+
+This release `makes a change`_ to the checkout session mixin which allows a basket
+to be explicitly specified by subclasses of the checkout ``PaymentDetails``
+view class. This is required when a different basket to ``request.basket`` is
+intended to be used in a preview (this is what `wshop-paypal`_ needs to
+do).
+
+.. _`makes a change`: https://github.com/vituocgia/wshop-core/commit/fbce17c
+.. _`wshop-paypal`: https://github.com/wshop-core/wshop-paypal
