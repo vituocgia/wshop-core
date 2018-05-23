@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: wshop-core\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-23 10:09+0700\n"
-"PO-Revision-Date: 2018-02-07 07:38+0000\n"
+"PO-Revision-Date: 2018-05-23 11:30+0700\n"
 "Last-Translator: Rain Le <rain@soi.vn>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/codeinthehole/wshop-"
-"core/language/vi/)\n"
+"Language-Team: Vietnamese (http://www.transifex.com/vituocgia/wshop-core/language/vi/)\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.7\n"
 
 #: .\wshop\apps\address\abstract_models.py:28
 msgid "Mr"
@@ -44,16 +44,14 @@ msgctxt "Treatment Pronouns for the customer"
 msgid "Title"
 msgstr "Tiêu đề"
 
-#: .\wshop\apps\address\abstract_models.py:223
-#: .\wshop\apps\customer\abstract_models.py:62
+#: .\wshop\apps\address\abstract_models.py:223 .\wshop\apps\customer\abstract_models.py:62
 #: .\wshop\templates\wshop\dashboard\partners\partner_manage.html:42
 #: .\wshop\templates\wshop\dashboard\partners\partner_user_list.html:44
 #: .\wshop\templates\wshop\dashboard\partners\partner_user_select.html:50
 msgid "First name"
 msgstr "Họ"
 
-#: .\wshop\apps\address\abstract_models.py:224
-#: .\wshop\apps\customer\abstract_models.py:64
+#: .\wshop\apps\address\abstract_models.py:224 .\wshop\apps\customer\abstract_models.py:64
 #: .\wshop\templates\wshop\dashboard\partners\partner_manage.html:43
 #: .\wshop\templates\wshop\dashboard\partners\partner_user_list.html:45
 #: .\wshop\templates\wshop\dashboard\partners\partner_user_select.html:51
@@ -84,8 +82,7 @@ msgstr "Thành phố/Quốc gia"
 msgid "Post/Zip-code"
 msgstr "Mã vùng"
 
-#: .\wshop\apps\address\abstract_models.py:240
-#: .\wshop\apps\address\abstract_models.py:435
+#: .\wshop\apps\address\abstract_models.py:240 .\wshop\apps\address\abstract_models.py:435
 msgid "Country"
 msgstr "Quốc gia"
 
@@ -143,18 +140,17 @@ msgstr "Văn phòng"
 #: .\wshop\apps\address\abstract_models.py:426
 #: .\wshop\apps\catalogue\abstract_models.py:1195
 msgid "Display order"
-msgstr "Tên hiển thị "
+msgstr "Tên hiển thị"
 
 #: .\wshop\apps\address\abstract_models.py:427
 msgid "Higher the number, higher the country in the list."
-msgstr "Số càng lớn, thể hiện các nước lớn trên danh sách"
+msgstr "Số càng lớn, thể hiện các nước lớn trên danh sách."
 
 #: .\wshop\apps\address\abstract_models.py:430
 msgid "Is shipping country"
 msgstr "Được vận chuyển từ quốc gia"
 
-#: .\wshop\apps\address\abstract_models.py:436
-#: .\wshop\apps\shipping\abstract_models.py:27
+#: .\wshop\apps\address\abstract_models.py:436 .\wshop\apps\shipping\abstract_models.py:27
 msgid "Countries"
 msgstr "Các quốc gia"
 
@@ -175,7 +171,7 @@ msgstr "Hướng dẫn"
 
 #: .\wshop\apps\address\abstract_models.py:483
 msgid "Tell us anything we should know when delivering your order."
-msgstr "Cho chúng tôi biết về những lưu ý khi giao hàng cho bạn "
+msgstr "Cho chúng tôi biết về những lưu ý khi giao hàng cho bạn."
 
 #: .\wshop\apps\address\abstract_models.py:490
 #: .\wshop\templates\wshop\checkout\shipping_address.html:5
@@ -190,17 +186,12 @@ msgstr "Địa chỉ giao hàng"
 msgid "Shipping addresses"
 msgstr "Những nơi cần giao hàng"
 
-#: .\wshop\apps\address\abstract_models.py:519
-#: .\wshop\apps\analytics\abstract_models.py:49
+#: .\wshop\apps\address\abstract_models.py:519 .\wshop\apps\analytics\abstract_models.py:49
 #: .\wshop\apps\analytics\abstract_models.py:81
-#: .\wshop\apps\analytics\abstract_models.py:106
-#: .\wshop\apps\basket\reports.py:78
-#: .\wshop\apps\customer\abstract_models.py:82
-#: .\wshop\apps\customer\abstract_models.py:121
-#: .\wshop\apps\customer\abstract_models.py:339
-#: .\wshop\apps\order\abstract_models.py:52
-#: .\wshop\apps\order\abstract_models.py:407
-#: .\wshop\apps\payment\abstract_models.py:251
+#: .\wshop\apps\analytics\abstract_models.py:106 .\wshop\apps\basket\reports.py:78
+#: .\wshop\apps\customer\abstract_models.py:82 .\wshop\apps\customer\abstract_models.py:121
+#: .\wshop\apps\customer\abstract_models.py:339 .\wshop\apps\order\abstract_models.py:52
+#: .\wshop\apps\order\abstract_models.py:407 .\wshop\apps\payment\abstract_models.py:251
 #: .\wshop\apps\voucher\abstract_models.py:277
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:610
 #: .\wshop\templates\wshop\dashboard\reviews\review_delete.html:38
@@ -234,20 +225,15 @@ msgstr "Số lượng đặt hàng"
 msgid "Address Hash"
 msgstr "Địa chỉ"
 
-#: .\wshop\apps\address\abstract_models.py:543
-#: .\wshop\apps\analytics\abstract_models.py:87
-#: .\wshop\apps\analytics\abstract_models.py:108
-#: .\wshop\apps\basket\abstract_models.py:650
-#: .\wshop\apps\customer\abstract_models.py:199
-#: .\wshop\apps\offer\abstract_models.py:210
-#: .\wshop\apps\offer\abstract_models.py:814
-#: .\wshop\apps\order\abstract_models.py:414
-#: .\wshop\apps\order\abstract_models.py:997
-#: .\wshop\apps\partner\abstract_models.py:288
-#: .\wshop\apps\payment\abstract_models.py:44
-#: .\wshop\apps\promotions\models.py:27 .\wshop\apps\promotions\models.py:357
+#: .\wshop\apps\address\abstract_models.py:543 .\wshop\apps\analytics\abstract_models.py:87
+#: .\wshop\apps\analytics\abstract_models.py:108 .\wshop\apps\basket\abstract_models.py:650
+#: .\wshop\apps\customer\abstract_models.py:199 .\wshop\apps\offer\abstract_models.py:210
+#: .\wshop\apps\offer\abstract_models.py:814 .\wshop\apps\order\abstract_models.py:414
+#: .\wshop\apps\order\abstract_models.py:997 .\wshop\apps\partner\abstract_models.py:288
+#: .\wshop\apps\payment\abstract_models.py:44 .\wshop\apps\promotions\models.py:27
+#: .\wshop\apps\promotions\models.py:357
 msgid "Date Created"
-msgstr "Ngày tạo "
+msgstr "Ngày tạo"
 
 #: .\wshop\apps\address\abstract_models.py:571
 msgid "User address"
@@ -272,8 +258,7 @@ msgstr "Địa chỉ trên hóa đơn"
 msgid "Billing addresses"
 msgstr "Những địa chỉ ghi trên hóa đơn"
 
-#: .\wshop\apps\address\abstract_models.py:622
-#: .\wshop\apps\order\abstract_models.py:488
+#: .\wshop\apps\address\abstract_models.py:622 .\wshop\apps\order\abstract_models.py:488
 #: .\wshop\apps\partner\abstract_models.py:102 .\wshop\apps\partner\config.py:8
 #: .\wshop\templates\wshop\dashboard\catalogue\product_update.html:190
 #: .\wshop\templates\wshop\dashboard\catalogue\stockalert_list.html:49
@@ -290,16 +275,12 @@ msgid "Partner addresses"
 msgstr "Những địa chỉ của đối tác"
 
 #: .\wshop\apps\analytics\abstract_models.py:20
-#: .\wshop\apps\analytics\abstract_models.py:86
-#: .\wshop\apps\analytics\reports.py:19
-#: .\wshop\apps\basket\abstract_models.py:628
-#: .\wshop\apps\catalogue\abstract_models.py:234
+#: .\wshop\apps\analytics\abstract_models.py:86 .\wshop\apps\analytics\reports.py:19
+#: .\wshop\apps\basket\abstract_models.py:628 .\wshop\apps\catalogue\abstract_models.py:234
 #: .\wshop\apps\catalogue\abstract_models.py:363
 #: .\wshop\apps\catalogue\abstract_models.py:931
-#: .\wshop\apps\catalogue\abstract_models.py:1188
-#: .\wshop\apps\order\abstract_models.py:515
-#: .\wshop\apps\partner\abstract_models.py:98
-#: .\wshop\apps\promotions\models.py:297
+#: .\wshop\apps\catalogue\abstract_models.py:1188 .\wshop\apps\order\abstract_models.py:515
+#: .\wshop\apps\partner\abstract_models.py:98 .\wshop\apps\promotions\models.py:297
 #: .\wshop\apps\wishlists\abstract_models.py:121
 #: .\wshop\templates\wshop\customer\alerts\alert_list.html:12
 #: .\wshop\templates\wshop\customer\anon_order.html:58
@@ -315,8 +296,7 @@ msgstr "Những địa chỉ của đối tác"
 msgid "Product"
 msgstr "Sản phẩm"
 
-#: .\wshop\apps\analytics\abstract_models.py:24
-#: .\wshop\apps\analytics\reports.py:20
+#: .\wshop\apps\analytics\abstract_models.py:24 .\wshop\apps\analytics\reports.py:20
 #: .\wshop\templates\wshop\dashboard\reports\partials\product_report.html:9
 msgid "Views"
 msgstr "Lượng người xem"
@@ -326,8 +306,7 @@ msgstr "Lượng người xem"
 msgid "Basket Additions"
 msgstr "Thêm vào giỏ hàng"
 
-#: .\wshop\apps\analytics\abstract_models.py:28
-#: .\wshop\apps\analytics\reports.py:22
+#: .\wshop\apps\analytics\abstract_models.py:28 .\wshop\apps\analytics\reports.py:22
 #: .\wshop\templates\wshop\dashboard\reports\partials\product_report.html:11
 msgid "Purchases"
 msgstr "Mua"
@@ -358,8 +337,7 @@ msgstr "Lịch sử của '%s'"
 msgid "Product Views"
 msgstr "Lượt xem sản phẩm"
 
-#: .\wshop\apps\analytics\abstract_models.py:60
-#: .\wshop\apps\analytics\reports.py:65
+#: .\wshop\apps\analytics\abstract_models.py:60 .\wshop\apps\analytics\reports.py:65
 #: .\wshop\apps\order\abstract_models.py:303 .\wshop\defaults.py:131
 #: .\wshop\templates\wshop\dashboard\orders\line_detail.html:16
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:17
@@ -374,8 +352,7 @@ msgstr "Lượt xem sản phẩm"
 msgid "Orders"
 msgstr "Đặt hàng"
 
-#: .\wshop\apps\analytics\abstract_models.py:62
-#: .\wshop\apps\order\abstract_models.py:579
+#: .\wshop\apps\analytics\abstract_models.py:62 .\wshop\apps\order\abstract_models.py:579
 msgid "Order Lines"
 msgstr "Dòng đặt hàng"
 
@@ -414,7 +391,7 @@ msgstr "%(user)s xem '%(product)s'"
 
 #: .\wshop\apps\analytics\abstract_models.py:107
 msgid "Search term"
-msgstr "Giới hạn tìm kiếm "
+msgstr "Giới hạn tìm kiếm"
 
 #: .\wshop\apps\analytics\abstract_models.py:113
 msgid "User search query"
@@ -422,7 +399,7 @@ msgstr "Dữ liệu người dùng tìm kiếm"
 
 #: .\wshop\apps\analytics\abstract_models.py:114
 msgid "User search queries"
-msgstr "Những yêu cầu tìm kiếm của người "
+msgstr "Những yêu cầu tìm kiếm của người"
 
 #: .\wshop\apps\analytics\abstract_models.py:117
 #, python-format
@@ -431,17 +408,17 @@ msgstr "%(user)s tìm kiếm  '%(query)s'"
 
 #: .\wshop\apps\analytics\config.py:8
 msgid "Analytics"
-msgstr "Thống kê "
+msgstr "Thống kê"
 
 #: .\wshop\apps\analytics\reports.py:21 .\wshop\apps\analytics\reports.py:64
 #: .\wshop\templates\wshop\dashboard\reports\partials\product_report.html:10
 #: .\wshop\templates\wshop\dashboard\reports\partials\user_report.html:12
 msgid "Basket additions"
-msgstr "Thêm vào giỏ hàng "
+msgstr "Thêm vào giỏ hàng"
 
 #: .\wshop\apps\analytics\reports.py:39
 msgid "Product analytics"
-msgstr "Phân tích sản phẩm "
+msgstr "Phân tích sản phẩm"
 
 #: .\wshop\apps\analytics\reports.py:61 .\wshop\apps\basket\reports.py:19
 #: .\wshop\apps\catalogue\abstract_models.py:49
@@ -449,23 +426,16 @@ msgstr "Phân tích sản phẩm "
 #: .\wshop\apps\catalogue\abstract_models.py:710
 #: .\wshop\apps\catalogue\abstract_models.py:1056
 #: .\wshop\apps\catalogue\abstract_models.py:1110
-#: .\wshop\apps\catalogue\reviews\forms.py:11
-#: .\wshop\apps\customer\abstract_models.py:166
-#: .\wshop\apps\dashboard\catalogue\tables.py:78
-#: .\wshop\apps\dashboard\users\forms.py:44
-#: .\wshop\apps\dashboard\vouchers\forms.py:18
-#: .\wshop\apps\dashboard\vouchers\forms.py:95
-#: .\wshop\apps\offer\abstract_models.py:90
-#: .\wshop\apps\offer\abstract_models.py:783
-#: .\wshop\apps\order\abstract_models.py:882
-#: .\wshop\apps\order\abstract_models.py:1065 .\wshop\apps\order\reports.py:21
-#: .\wshop\apps\payment\abstract_models.py:212
-#: .\wshop\apps\payment\abstract_models.py:255
-#: .\wshop\apps\promotions\models.py:145 .\wshop\apps\promotions\models.py:175
-#: .\wshop\apps\promotions\models.py:201 .\wshop\apps\promotions\models.py:221
-#: .\wshop\apps\shipping\abstract_models.py:22
-#: .\wshop\apps\voucher\abstract_models.py:34
-#: .\wshop\apps\voucher\abstract_models.py:125
+#: .\wshop\apps\catalogue\reviews\forms.py:11 .\wshop\apps\customer\abstract_models.py:166
+#: .\wshop\apps\dashboard\catalogue\tables.py:78 .\wshop\apps\dashboard\users\forms.py:44
+#: .\wshop\apps\dashboard\vouchers\forms.py:18 .\wshop\apps\dashboard\vouchers\forms.py:95
+#: .\wshop\apps\offer\abstract_models.py:90 .\wshop\apps\offer\abstract_models.py:783
+#: .\wshop\apps\order\abstract_models.py:882 .\wshop\apps\order\abstract_models.py:1065
+#: .\wshop\apps\order\reports.py:21 .\wshop\apps\payment\abstract_models.py:212
+#: .\wshop\apps\payment\abstract_models.py:255 .\wshop\apps\promotions\models.py:145
+#: .\wshop\apps\promotions\models.py:175 .\wshop\apps\promotions\models.py:201
+#: .\wshop\apps\promotions\models.py:221 .\wshop\apps\shipping\abstract_models.py:22
+#: .\wshop\apps\voucher\abstract_models.py:34 .\wshop\apps\voucher\abstract_models.py:125
 #: .\wshop\apps\wishlists\abstract_models.py:28
 #: .\wshop\templates\wshop\customer\profile\profile.html:9
 #: .\wshop\templates\wshop\customer\wishlists\wishlists_list.html:9
@@ -497,28 +467,28 @@ msgstr "Tên"
 #: .\wshop\templates\wshop\customer\profile\profile.html:25
 #: .\wshop\templates\wshop\dashboard\reports\partials\user_report.html:10
 msgid "Date registered"
-msgstr "Ngày đăng ký "
+msgstr "Ngày đăng ký"
 
 #: .\wshop\apps\analytics\reports.py:63
 #: .\wshop\templates\wshop\dashboard\reports\partials\user_report.html:11
 msgid "Product views"
-msgstr "Lượt xem sản phẩm "
+msgstr "Lượt xem sản phẩm"
 
 #: .\wshop\apps\analytics\reports.py:66
 #: .\wshop\templates\wshop\dashboard\reports\partials\user_report.html:14
 msgid "Order lines"
-msgstr "Lượt đặt hàng "
+msgstr "Lượt đặt hàng"
 
 #: .\wshop\apps\analytics\reports.py:67
 #: .\wshop\templates\wshop\dashboard\reports\partials\user_report.html:15
 msgid "Order items"
-msgstr "Sản phẩm đặt hàng "
+msgstr "Sản phẩm đặt hàng"
 
 #: .\wshop\apps\analytics\reports.py:68
 #: .\wshop\templates\wshop\dashboard\reports\partials\user_report.html:16
 #: .\wshop\templates\wshop\dashboard\users\detail.html:76
 msgid "Total spent"
-msgstr "Tổng thanh toán "
+msgstr "Tổng thanh toán"
 
 #: .\wshop\apps\analytics\reports.py:69
 #: .\wshop\templates\wshop\dashboard\reports\partials\user_report.html:17
@@ -529,14 +499,13 @@ msgstr "Lần cuối đặt hàng"
 msgid "User analytics"
 msgstr "Số liệu người dùng"
 
-#: .\wshop\apps\basket\abstract_models.py:36
-#: .\wshop\apps\wishlists\abstract_models.py:27
+#: .\wshop\apps\basket\abstract_models.py:36 .\wshop\apps\wishlists\abstract_models.py:27
 msgid "Owner"
 msgstr "Chủ sở hữu"
 
 #: .\wshop\apps\basket\abstract_models.py:44
 msgid "Open - currently active"
-msgstr "Hiện đang hoạt "
+msgstr "Hiện đang hoạt"
 
 #: .\wshop\apps\basket\abstract_models.py:45
 msgid "Merged - superceded by another basket"
@@ -544,7 +513,7 @@ msgstr "Sáp nhập- Trộn tất cả các giỏ hàng"
 
 #: .\wshop\apps\basket\abstract_models.py:46
 msgid "Saved - for items to be purchased later"
-msgstr "Lưu những món hàng để mua "
+msgstr "Lưu những món hàng để mua"
 
 #: .\wshop\apps\basket\abstract_models.py:47
 msgid "Frozen - the basket cannot be modified"
@@ -552,22 +521,16 @@ msgstr "Khóa lại - Giỏ hàng không thể thay đổi"
 
 #: .\wshop\apps\basket\abstract_models.py:48
 msgid "Submitted - has been ordered at the checkout"
-msgstr "Gửi đơn hàng khi thanh toán."
+msgstr "Gửi đơn hàng khi thanh toán"
 
-#: .\wshop\apps\basket\abstract_models.py:51
-#: .\wshop\apps\catalogue\abstract_models.py:1119
+#: .\wshop\apps\basket\abstract_models.py:51 .\wshop\apps\catalogue\abstract_models.py:1119
 #: .\wshop\apps\catalogue\reviews\abstract_models.py:63
 #: .\wshop\apps\customer\abstract_models.py:359
-#: .\wshop\apps\dashboard\catalogue\forms.py:286
-#: .\wshop\apps\dashboard\orders\forms.py:77
-#: .\wshop\apps\dashboard\reviews\forms.py:14
-#: .\wshop\apps\dashboard\reviews\forms.py:27
-#: .\wshop\apps\dashboard\users\forms.py:43
-#: .\wshop\apps\offer\abstract_models.py:129
-#: .\wshop\apps\offer\abstract_models.py:1050
-#: .\wshop\apps\order\abstract_models.py:91
-#: .\wshop\apps\order\abstract_models.py:562
-#: .\wshop\apps\partner\abstract_models.py:286
+#: .\wshop\apps\dashboard\catalogue\forms.py:286 .\wshop\apps\dashboard\orders\forms.py:77
+#: .\wshop\apps\dashboard\reviews\forms.py:14 .\wshop\apps\dashboard\reviews\forms.py:27
+#: .\wshop\apps\dashboard\users\forms.py:43 .\wshop\apps\offer\abstract_models.py:129
+#: .\wshop\apps\offer\abstract_models.py:1050 .\wshop\apps\order\abstract_models.py:91
+#: .\wshop\apps\order\abstract_models.py:562 .\wshop\apps\partner\abstract_models.py:286
 #: .\wshop\apps\payment\abstract_models.py:43
 #: .\wshop\templates\wshop\customer\alerts\alert_list.html:13
 #: .\wshop\templates\wshop\customer\anon_order.html:14
@@ -588,10 +551,9 @@ msgstr "Gửi đơn hàng khi thanh toán."
 #: .\wshop\templates\wshop\dashboard\vouchers\voucher_set_detail.html:86
 #: .\wshop\templates\wshop\dashboard\vouchers\voucher_set_list.html:37
 msgid "Status"
-msgstr "Trạng thái "
+msgstr "Trạng thái"
 
-#: .\wshop\apps\basket\abstract_models.py:57
-#: .\wshop\apps\dashboard\vouchers\views.py:80
+#: .\wshop\apps\basket\abstract_models.py:57 .\wshop\apps\dashboard\vouchers\views.py:80
 #: .\wshop\apps\voucher\abstract_models.py:169 .\wshop\defaults.py:175
 #: .\wshop\templates\wshop\basket\partials\basket_totals.html:39
 #: .\wshop\templates\wshop\dashboard\vouchers\voucher_delete.html:8
@@ -608,10 +570,8 @@ msgstr "Phiếu giảm giá"
 #: .\wshop\apps\basket\abstract_models.py:59 .\wshop\apps\basket\reports.py:82
 #: .\wshop\apps\catalogue\abstract_models.py:336
 #: .\wshop\apps\catalogue\abstract_models.py:1198
-#: .\wshop\apps\customer\abstract_models.py:362
-#: .\wshop\apps\order\abstract_models.py:933
-#: .\wshop\apps\partner\abstract_models.py:151
-#: .\wshop\apps\wishlists\abstract_models.py:55
+#: .\wshop\apps\customer\abstract_models.py:362 .\wshop\apps\order\abstract_models.py:933
+#: .\wshop\apps\partner\abstract_models.py:151 .\wshop\apps\wishlists\abstract_models.py:55
 #: .\wshop\templates\wshop\customer\alerts\alert_list.html:14
 #: .\wshop\templates\wshop\dashboard\promotions\promotion_list.html:44
 #: .\wshop\templates\wshop\dashboard\ranges\range_list.html:34
@@ -636,9 +596,8 @@ msgstr "Ngày sửa"
 msgid "Date submitted"
 msgstr "Ngày gửi"
 
-#: .\wshop\apps\basket\abstract_models.py:70
-#: .\wshop\apps\basket\abstract_models.py:615 .\wshop\apps\basket\config.py:8
-#: .\wshop\apps\order\abstract_models.py:45
+#: .\wshop\apps\basket\abstract_models.py:70 .\wshop\apps\basket\abstract_models.py:615
+#: .\wshop\apps\basket\config.py:8 .\wshop\apps\order\abstract_models.py:45
 #: .\wshop\templates\wshop\basket\basket.html:6
 #: .\wshop\templates\wshop\basket\basket.html:14
 #: .\wshop\templates\wshop\basket\basket.html:22
@@ -661,21 +620,19 @@ msgstr "%(status)s giỏ hàng (owner: %(owner)s, dây : %(num_lines)d)"
 #: .\wshop\apps\basket\abstract_models.py:159
 #, python-format
 msgid ""
-"Due to technical limitations we are not able to ship more than %(threshold)d "
-"items in one order."
+"Due to technical limitations we are not able to ship more than %(threshold)d items in "
+"one order."
 msgstr ""
-"Do hạn chế về kỹ thuật, chúng tôi không thể giao nhiều hơn %(threshold)d "
-"trong một đơn hàng."
+"Do hạn chế về kỹ thuật, chúng tôi không thể giao nhiều hơn %(threshold)d trong một đơn "
+"hàng."
 
 #: .\wshop\apps\basket\abstract_models.py:622
 msgid "Line Reference"
 msgstr "Tham khảo"
 
 #: .\wshop\apps\basket\abstract_models.py:636 .\wshop\apps\basket\forms.py:106
-#: .\wshop\apps\order\abstract_models.py:522
-#: .\wshop\apps\order\abstract_models.py:848
-#: .\wshop\apps\order\abstract_models.py:963
-#: .\wshop\apps\order\abstract_models.py:1033
+#: .\wshop\apps\order\abstract_models.py:522 .\wshop\apps\order\abstract_models.py:848
+#: .\wshop\apps\order\abstract_models.py:963 .\wshop\apps\order\abstract_models.py:1033
 #: .\wshop\apps\wishlists\abstract_models.py:124
 #: .\wshop\templates\wshop\basket\partials\basket_content.html:30
 #: .\wshop\templates\wshop\checkout\checkout.html:110
@@ -690,10 +647,8 @@ msgstr "Tham khảo"
 msgid "Quantity"
 msgstr "Số lượng"
 
-#: .\wshop\apps\basket\abstract_models.py:642
-#: .\wshop\apps\order\abstract_models.py:64
-#: .\wshop\apps\partner\abstract_models.py:113
-#: .\wshop\apps\payment\abstract_models.py:83
+#: .\wshop\apps\basket\abstract_models.py:642 .\wshop\apps\order\abstract_models.py:64
+#: .\wshop\apps\partner\abstract_models.py:113 .\wshop\apps\payment\abstract_models.py:83
 #: .\wshop\templates\wshop\dashboard\catalogue\product_update.html:197
 msgid "Currency"
 msgstr "Tiền tệ"
@@ -708,95 +663,82 @@ msgstr "Giá bao gồm thuế"
 
 #: .\wshop\apps\basket\abstract_models.py:665
 msgid "Basket line"
-msgstr "Giỏ hàng dây "
+msgstr "Giỏ hàng dây"
 
 #: .\wshop\apps\basket\abstract_models.py:666
 msgid "Basket lines"
-msgstr "Những giỏ hàng "
+msgstr "Những giỏ hàng"
 
 #: .\wshop\apps\basket\abstract_models.py:670
 #, python-format
 msgid "Basket #%(basket_id)d, Product #%(product_id)d, quantity %(quantity)d"
-msgstr ""
-"Giỏ hàng #%(basket_id)d, Sản phẩm  #%(product_id)d, Số lượng %(quantity)d"
+msgstr "Giỏ hàng #%(basket_id)d, Sản phẩm  #%(product_id)d, Số lượng %(quantity)d"
 
 #: .\wshop\apps\basket\abstract_models.py:678
 #, python-format
 msgid "You cannot modify a %s basket"
-msgstr "Bạn không thể thay đổi %s giỏ hàng "
+msgstr "Bạn không thể thay đổi %s giỏ hàng"
 
 #: .\wshop\apps\basket\abstract_models.py:907
 #, python-format
 msgid ""
-"The price of '%(product)s' has increased from %(old_price)s to %(new_price)s "
-"since you added it to your basket"
+"The price of '%(product)s' has increased from %(old_price)s to %(new_price)s since you "
+"added it to your basket"
 msgstr ""
-"Giá của  '%(product)s' đã tăng từ %(old_price)s đến %(new_price)s kể từ khi "
-"bạn thêm nó vào giỏ hàng của bạn "
+"Giá của  '%(product)s' đã tăng từ %(old_price)s đến %(new_price)s kể từ khi bạn thêm nó "
+"vào giỏ hàng của bạn"
 
 #: .\wshop\apps\basket\abstract_models.py:912
 #, python-format
 msgid ""
-"The price of '%(product)s' has decreased from %(old_price)s to %(new_price)s "
-"since you added it to your basket"
+"The price of '%(product)s' has decreased from %(old_price)s to %(new_price)s since you "
+"added it to your basket"
 msgstr ""
-"Giá của  '%(product)s' đã giảm  từ %(old_price)s đến %(new_price)s kể từ khi "
-"bạn thêm nó vào giỏ hàng của bạn "
+"Giá của  '%(product)s' đã giảm  từ %(old_price)s đến %(new_price)s kể từ khi bạn thêm nó "
+"vào giỏ hàng của bạn"
 
-#: .\wshop\apps\basket\abstract_models.py:926
-#: .\wshop\apps\order\abstract_models.py:812
-#: .\wshop\apps\order\abstract_models.py:847
-#: .\wshop\apps\order\abstract_models.py:962
+#: .\wshop\apps\basket\abstract_models.py:926 .\wshop\apps\order\abstract_models.py:812
+#: .\wshop\apps\order\abstract_models.py:847 .\wshop\apps\order\abstract_models.py:962
 #: .\wshop\apps\order\abstract_models.py:1032
 msgid "Line"
-msgstr "dây "
+msgstr "Line"
 
-#: .\wshop\apps\basket\abstract_models.py:930
-#: .\wshop\apps\catalogue\abstract_models.py:743
+#: .\wshop\apps\basket\abstract_models.py:930 .\wshop\apps\catalogue\abstract_models.py:743
 #: .\wshop\apps\catalogue\abstract_models.py:1084
-#: .\wshop\apps\catalogue\abstract_models.py:1125
-#: .\wshop\apps\order\abstract_models.py:815
+#: .\wshop\apps\catalogue\abstract_models.py:1125 .\wshop\apps\order\abstract_models.py:815
 #: .\wshop\apps\order\abstract_models.py:842
 #: .\wshop\templates\wshop\dashboard\catalogue\attribute_option_group_form.html:112
 msgid "Option"
-msgstr "Lựa chọn "
+msgstr "Lựa chọn"
 
-#: .\wshop\apps\basket\abstract_models.py:931
-#: .\wshop\apps\offer\abstract_models.py:487
-#: .\wshop\apps\offer\abstract_models.py:702
-#: .\wshop\apps\order\abstract_models.py:817
+#: .\wshop\apps\basket\abstract_models.py:931 .\wshop\apps\offer\abstract_models.py:487
+#: .\wshop\apps\offer\abstract_models.py:702 .\wshop\apps\order\abstract_models.py:817
 msgid "Value"
-msgstr "Giá trị "
+msgstr "Giá trị"
 
 #: .\wshop\apps\basket\abstract_models.py:936
 msgid "Line attribute"
-msgstr "Thuộc tính dây "
+msgstr "Thuộc tính dây"
 
 #: .\wshop\apps\basket\abstract_models.py:937
 msgid "Line attributes"
-msgstr "Những thuộc tính dây "
+msgstr "Những thuộc tính dây"
 
 #: .\wshop\apps\basket\forms.py:16
 msgid "Save for Later"
-msgstr "Lưu lại cho lần sau "
+msgstr "Lưu lại cho lần sau"
 
 #: .\wshop\apps\basket\forms.py:64
 msgid "Move to Basket"
-msgstr "Di chuyển đến giỏ hàng "
+msgstr "Di chuyển đến giỏ hàng"
 
-#: .\wshop\apps\basket\forms.py:96
-#: .\wshop\apps\catalogue\abstract_models.py:712
+#: .\wshop\apps\basket\forms.py:96 .\wshop\apps\catalogue\abstract_models.py:712
 #: .\wshop\apps\catalogue\abstract_models.py:1111
-#: .\wshop\apps\customer\abstract_models.py:154
-#: .\wshop\apps\dashboard\vouchers\forms.py:19
-#: .\wshop\apps\dashboard\vouchers\forms.py:96
-#: .\wshop\apps\dashboard\vouchers\forms.py:149
-#: .\wshop\apps\order\abstract_models.py:883
-#: .\wshop\apps\order\abstract_models.py:1067
-#: .\wshop\apps\order\abstract_models.py:1121
-#: .\wshop\apps\partner\abstract_models.py:26
-#: .\wshop\apps\payment\abstract_models.py:214
-#: .\wshop\apps\voucher\abstract_models.py:129
+#: .\wshop\apps\customer\abstract_models.py:154 .\wshop\apps\dashboard\vouchers\forms.py:19
+#: .\wshop\apps\dashboard\vouchers\forms.py:96 .\wshop\apps\dashboard\vouchers\forms.py:149
+#: .\wshop\apps\order\abstract_models.py:883 .\wshop\apps\order\abstract_models.py:1067
+#: .\wshop\apps\order\abstract_models.py:1121 .\wshop\apps\partner\abstract_models.py:26
+#: .\wshop\apps\payment\abstract_models.py:214 .\wshop\apps\voucher\abstract_models.py:129
 #: .\wshop\templates\wshop\dashboard\catalogue\product_class_form.html:98
 #: .\wshop\templates\wshop\dashboard\comms\list.html:31
 #: .\wshop\templates\wshop\dashboard\vouchers\voucher_delete.html:38
@@ -804,65 +746,54 @@ msgstr "Di chuyển đến giỏ hàng "
 #: .\wshop\templates\wshop\dashboard\vouchers\voucher_list.html:53
 #: .\wshop\templates\wshop\dashboard\vouchers\voucher_set_detail.html:85
 msgid "Code"
-msgstr "Mã "
+msgstr "Mã"
 
 #: .\wshop\apps\basket\forms.py:151
 msgid "Variant"
-msgstr "Dạng khác "
+msgstr "Dạng khác"
 
 #: .\wshop\apps\basket\forms.py:179
 msgid "Please select a valid product"
-msgstr "Vui lòng chọn sản phẩm hợp lệ "
+msgstr "Vui lòng chọn sản phẩm hợp lệ"
 
 #: .\wshop\apps\basket\forms.py:196
 #, python-format
 msgid ""
-"Due to technical limitations we are not able to ship more than %(threshold)d "
-"items in one order. Your basket currently has %(basket)d items."
+"Due to technical limitations we are not able to ship more than %(threshold)d items in "
+"one order. Your basket currently has %(basket)d items."
 msgstr ""
-"Do hạn chế về kỹ thuật, chúng tôi không thể giao nhiều hơn%(threshold)d  mục "
-"trong một đơn hàng. Giỏ hàng của bạn hiện có%(basket)d mục."
+"Do hạn chế về kỹ thuật, chúng tôi không thể giao nhiều hơn%(threshold)d  mục trong một "
+"đơn hàng. Giỏ hàng của bạn hiện có%(basket)d mục."
 
 #: .\wshop\apps\basket\forms.py:218
-#, fuzzy
-#| msgid ""
-#| "This product cannot be added to the basket as its currency isn't the same "
-#| "as other products in your basket"
 msgid ""
-"This product cannot be added to the basket because a price could not be "
-"determined for it."
+"This product cannot be added to the basket because a price could not be determined for "
+"it."
 msgstr ""
-"Sản phẩm này không thể thêm vào giỏ hàng vì loại tiền tệ  không giống như "
-"các sản phẩm khác trong giỏ hàng của bạn"
+"Sản phẩm này không thể thêm vào giỏ hàng vì loại tiền tệ  không giống như các sản phẩm "
+"khác trong giỏ hàng của bạn."
 
 #: .\wshop\apps\basket\forms.py:225
 msgid ""
-"This product cannot be added to the basket as its currency isn't the same as "
-"other products in your basket"
+"This product cannot be added to the basket as its currency isn't the same as other "
+"products in your basket"
 msgstr ""
-"Sản phẩm này không thể thêm vào giỏ hàng vì loại tiền tệ  không giống như "
-"các sản phẩm khác trong giỏ hàng của bạn"
+"Sản phẩm này không thể thêm vào giỏ hàng vì loại tiền tệ  không giống như các sản phẩm "
+"khác trong giỏ hàng của bạn"
 
 #: .\wshop\apps\basket\middleware.py:174
-msgid ""
-"We have merged a basket from a previous session. Its contents might have "
-"changed."
-msgstr ""
-"Chúng tôi đã gom một giỏ từ một phiên trước. Nội dung của nó có thể đã thay "
-"đổi."
+msgid "We have merged a basket from a previous session. Its contents might have changed."
+msgstr "Chúng tôi đã gom một giỏ từ một phiên trước. Nội dung của nó có thể đã thay đổi."
 
 #: .\wshop\apps\basket\reports.py:18 .\wshop\apps\basket\reports.py:77
 msgid "User ID"
-msgstr "ID của bạn "
+msgstr "ID của bạn"
 
-#: .\wshop\apps\basket\reports.py:20
-#: .\wshop\apps\catalogue\reviews\abstract_models.py:52
-#: .\wshop\apps\catalogue\reviews\forms.py:12
-#: .\wshop\apps\customer\abstract_models.py:132
-#: .\wshop\apps\customer\abstract_models.py:340
-#: .\wshop\apps\customer\views.py:428 .\wshop\apps\dashboard\users\forms.py:13
-#: .\wshop\apps\dashboard\users\forms.py:45 .\wshop\apps\order\reports.py:22
-#: .\wshop\templates\wshop\checkout\checkout.html:49
+#: .\wshop\apps\basket\reports.py:20 .\wshop\apps\catalogue\reviews\abstract_models.py:52
+#: .\wshop\apps\catalogue\reviews\forms.py:12 .\wshop\apps\customer\abstract_models.py:132
+#: .\wshop\apps\customer\abstract_models.py:340 .\wshop\apps\customer\views.py:428
+#: .\wshop\apps\dashboard\users\forms.py:13 .\wshop\apps\dashboard\users\forms.py:45
+#: .\wshop\apps\order\reports.py:22 .\wshop\templates\wshop\checkout\checkout.html:49
 #: .\wshop\templates\wshop\checkout\thank_you.html:52
 #: .\wshop\templates\wshop\dashboard\partners\partner_manage.html:41
 #: .\wshop\templates\wshop\dashboard\partners\partner_user_list.html:43
@@ -873,17 +804,17 @@ msgstr "ID của bạn "
 #: .\wshop\templates\wshop\dashboard\reports\partials\user_report.html:8
 #: .\wshop\templates\wshop\dashboard\users\detail.html:36
 msgid "Email"
-msgstr "Email "
+msgstr "Email"
 
 #: .\wshop\apps\basket\reports.py:21 .\wshop\apps\basket\reports.py:79
 msgid "Basket status"
-msgstr "Trạng thái giỏ hàng "
+msgstr "Trạng thái giỏ hàng"
 
 #: .\wshop\apps\basket\reports.py:22 .\wshop\apps\basket\reports.py:80
 #: .\wshop\templates\wshop\dashboard\reports\partials\open_basket_report.html:10
 #: .\wshop\templates\wshop\dashboard\reports\partials\submitted_basket_report.html:10
 msgid "Num lines"
-msgstr "Số dây "
+msgstr "Số dây"
 
 #: .\wshop\apps\basket\reports.py:23 .\wshop\apps\basket\reports.py:81
 #: .\wshop\templates\wshop\customer\order\order_list.html:40
@@ -891,74 +822,72 @@ msgstr "Số dây "
 #: .\wshop\templates\wshop\dashboard\reports\partials\submitted_basket_report.html:11
 #: .\wshop\templates\wshop\dashboard\users\detail.html:120
 msgid "Num items"
-msgstr "Số sản phẩm "
+msgstr "Số sản phẩm"
 
 #: .\wshop\apps\basket\reports.py:24
 #: .\wshop\templates\wshop\dashboard\reports\partials\open_basket_report.html:12
 msgid "Date of creation"
-msgstr "Ngày tạo "
+msgstr "Ngày tạo"
 
 #: .\wshop\apps\basket\reports.py:25
 #: .\wshop\templates\wshop\dashboard\reports\partials\open_basket_report.html:13
 msgid "Time since creation"
-msgstr "Thời gian kể từ khi tạo "
+msgstr "Thời gian kể từ khi tạo"
 
 #: .\wshop\apps\basket\reports.py:57
 msgid "Open baskets"
-msgstr "Mở giỏ hàng "
+msgstr "Mở giỏ hàng"
 
 #: .\wshop\apps\basket\reports.py:83
 #: .\wshop\templates\wshop\dashboard\reports\partials\submitted_basket_report.html:13
 msgid "Time between creation and submission"
-msgstr "Thời gian từ khi tạo đến khi gửi "
+msgstr "Thời gian từ khi tạo đến khi gửi"
 
 #: .\wshop\apps\basket\reports.py:112
 msgid "Submitted baskets"
-msgstr "Gửi giỏ hàng "
+msgstr "Gửi giỏ hàng"
 
 #: .\wshop\apps\basket\views.py:167
 msgid "You can't save an item for later if you're not logged in!"
-msgstr "Bạn không thể lưu sản phẩm cho lần sau vì bạn chưa đăng nhập "
+msgstr "Bạn không thể lưu sản phẩm cho lần sau vì bạn chưa đăng nhập"
 
 #: .\wshop\apps\basket\views.py:230
-msgid ""
-"Your basket couldn't be updated. Please correct any validation errors below."
+msgid "Your basket couldn't be updated. Please correct any validation errors below."
 msgstr ""
-"Giỏ hàng của bạn chưa được cập nhật. Bạn vui lòng kiểm tra  lại các thông "
-"tin bên dưới."
+"Giỏ hàng của bạn chưa được cập nhật. Bạn vui lòng kiểm tra  lại các thông tin bên dưới."
 
 #: .\wshop\apps\basket\views.py:318
 #, python-format
 msgid "The '%(code)s' voucher has expired"
-msgstr "Ma '%(code)s' của phiếu giảm giá đã hết hạn. "
+msgstr "Ma '%(code)s' của phiếu giảm giá đã hết hạn."
 
 #: .\wshop\apps\basket\views.py:325
 #, python-format
 msgid "The '%(code)s' voucher is not active"
-msgstr "Mã '%(code)s' của phiếu giảm giá chưa được kích hoạt. "
+msgstr "Mã '%(code)s' của phiếu giảm giá chưa được kích hoạt."
 
 #: .\wshop\apps\basket\views.py:354
 msgid "Your basket does not qualify for a voucher discount"
-msgstr "Giỏ hàng của bạn chưa đủ số lượng cho phiếu giảm giá ."
+msgstr "Giỏ hàng của bạn chưa đủ số lượng cho phiếu giảm giá "
 
 #: .\wshop\apps\basket\views.py:359
 #, python-format
 msgid "Voucher '%(code)s' added to basket"
-msgstr "Mã '%(code)s' phiếu giảm giá đã thêm vào giỏ  hàng ."
+msgstr "Mã '%(code)s' phiếu giảm giá đã thêm vào giỏ hàng"
 
 #: .\wshop\apps\basket\views.py:369
 #, python-format
 msgid "You have already added the '%(code)s' voucher to your basket"
-msgstr "Bạn đã thêm mã '%(code)s'  của phiếu giảm giá vào giỏ hàng ."
+msgstr "Bạn đã thêm mã '%(code)s'  của phiếu giảm giá vào giỏ hàng"
 
 #: .\wshop\apps\basket\views.py:377
 #, python-format
 msgid "No voucher found with code '%(code)s'"
-msgstr "Không tìm thấy phiếu giảm giá với mã '%(code)s' "
+msgstr "Không tìm thấy phiếu giảm giá với mã '%(code)s'"
 
 #: .\wshop\apps\basket\views.py:384 .\wshop\apps\dashboard\vouchers\forms.py:73
 msgid "Please enter a voucher code"
-msgstr "Bạn vui lòng nhập mã của phiếu giảm giá ."
+msgstr "Bạn vui lòng nhập mã của phiếu giảm giá"
 
 #: .\wshop\apps\basket\views.py:405
 #, fuzzy, python-format
@@ -973,16 +902,14 @@ msgstr "Phiếu giảm giá '%s' bị bỏ ra khỏi giỏ hàng"
 
 #: .\wshop\apps\catalogue\abstract_models.py:50
 #: .\wshop\apps\catalogue\abstract_models.py:96
-#: .\wshop\apps\catalogue\abstract_models.py:300
-#: .\wshop\apps\offer\abstract_models.py:93
-#: .\wshop\apps\offer\abstract_models.py:785
-#: .\wshop\apps\shipping\abstract_models.py:20
+#: .\wshop\apps\catalogue\abstract_models.py:300 .\wshop\apps\offer\abstract_models.py:93
+#: .\wshop\apps\offer\abstract_models.py:785 .\wshop\apps\shipping\abstract_models.py:20
 msgid "Slug"
-msgstr "Tiêu đề "
+msgstr "Tiêu đề"
 
 #: .\wshop\apps\catalogue\abstract_models.py:55
 msgid "Requires shipping?"
-msgstr "Yêu cầu giao hàng ? "
+msgstr "Yêu cầu giao hàng ?"
 
 #: .\wshop\apps\catalogue\abstract_models.py:60
 msgid "Track stock levels?"
@@ -991,37 +918,34 @@ msgstr "Kiểm tra mức độ tồn kho ?"
 #: .\wshop\apps\catalogue\abstract_models.py:67
 #: .\wshop\apps\catalogue\abstract_models.py:1126
 msgid "Options"
-msgstr "Lựa chọn "
+msgstr "Lựa chọn"
 
 #: .\wshop\apps\catalogue\abstract_models.py:73
 #: .\wshop\apps\catalogue\abstract_models.py:554
 msgid "Product class"
-msgstr "Dòng sản phẩm "
+msgstr "Dòng sản phẩm"
 
 #: .\wshop\apps\catalogue\abstract_models.py:74
 msgid "Product classes"
-msgstr "Những dòng sản phẩm "
+msgstr "Những dòng sản phẩm"
 
 #: .\wshop\apps\catalogue\abstract_models.py:93
-#: .\wshop\apps\catalogue\abstract_models.py:301
-#: .\wshop\apps\offer\abstract_models.py:94
+#: .\wshop\apps\catalogue\abstract_models.py:301 .\wshop\apps\offer\abstract_models.py:94
 #: .\wshop\apps\promotions\models.py:223 .\wshop\apps\promotions\models.py:247
-#: .\wshop\apps\shipping\abstract_models.py:23
-#: .\wshop\apps\voucher\abstract_models.py:38
+#: .\wshop\apps\shipping\abstract_models.py:23 .\wshop\apps\voucher\abstract_models.py:38
 #: .\wshop\templates\wshop\dashboard\offers\offer_detail.html:67
 #: .\wshop\templates\wshop\dashboard\offers\summary.html:12
 #: .\wshop\templates\wshop\dashboard\shipping\weight_based_detail.html:35
 #: .\wshop\templates\wshop\dashboard\vouchers\voucher_set_detail.html:54
 msgid "Description"
-msgstr "Mô tả chi tiết "
+msgstr "Mô tả chi tiết"
 
 #: .\wshop\apps\catalogue\abstract_models.py:94
 #: .\wshop\apps\catalogue\abstract_models.py:747
-#: .\wshop\apps\dashboard\catalogue\tables.py:21
-#: .\wshop\apps\promotions\models.py:180 .\wshop\apps\promotions\models.py:189
-#: .\wshop\apps\promotions\models.py:190
+#: .\wshop\apps\dashboard\catalogue\tables.py:21 .\wshop\apps\promotions\models.py:180
+#: .\wshop\apps\promotions\models.py:189 .\wshop\apps\promotions\models.py:190
 msgid "Image"
-msgstr "Hình ảnh "
+msgstr "Hình ảnh"
 
 #: .\wshop\apps\catalogue\abstract_models.py:216
 #: .\wshop\apps\catalogue\abstract_models.py:238
@@ -1029,7 +953,7 @@ msgstr "Hình ảnh "
 #: .\wshop\templates\wshop\dashboard\catalogue\product_update.html:123
 #: .\wshop\templates\wshop\dashboard\comms\list.html:33
 msgid "Category"
-msgstr "Danh mục "
+msgstr "Danh mục"
 
 #: .\wshop\apps\catalogue\abstract_models.py:217
 #: .\wshop\apps\catalogue\abstract_models.py:344
@@ -1046,32 +970,31 @@ msgstr "Phân loại"
 
 #: .\wshop\apps\catalogue\abstract_models.py:245
 msgid "Product category"
-msgstr "Danh mục hàng hóa "
+msgstr "Danh mục hàng hóa"
 
 #: .\wshop\apps\catalogue\abstract_models.py:246
 msgid "Product categories"
-msgstr "Những danh mục hàng hóa "
+msgstr "Những danh mục hàng hóa"
 
 #: .\wshop\apps\catalogue\abstract_models.py:270
 msgid "Stand-alone product"
-msgstr "Sản phẩm riêng lẻ "
+msgstr "Sản phẩm riêng lẻ"
 
 #: .\wshop\apps\catalogue\abstract_models.py:271
 #: .\wshop\apps\catalogue\abstract_models.py:290
 msgid "Parent product"
-msgstr "Sản phẩm trước "
+msgstr "Sản phẩm trước"
 
 #: .\wshop\apps\catalogue\abstract_models.py:272
 msgid "Child product"
-msgstr "Sản phẩm sau "
+msgstr "Sản phẩm sau"
 
 #: .\wshop\apps\catalogue\abstract_models.py:275
 msgid "Product structure"
-msgstr "Cấu trúc sản phẩm "
+msgstr "Cấu trúc sản phẩm"
 
 #: .\wshop\apps\catalogue\abstract_models.py:279
-#: .\wshop\apps\dashboard\catalogue\forms.py:50
-#: .\wshop\apps\dashboard\orders\forms.py:71
+#: .\wshop\apps\dashboard\catalogue\forms.py:50 .\wshop\apps\dashboard\orders\forms.py:71
 #: .\wshop\apps\order\abstract_models.py:520
 #: .\wshop\templates\wshop\catalogue\detail.html:106
 #: .\wshop\templates\wshop\dashboard\orders\line_detail.html:50
@@ -1082,25 +1005,24 @@ msgstr "UPC"
 
 #: .\wshop\apps\catalogue\abstract_models.py:280
 msgid ""
-"Universal Product Code (UPC) is an identifier for a product which is not "
-"specific to a particular  supplier. Eg an ISBN for a book."
+"Universal Product Code (UPC) is an identifier for a product which is not specific to a "
+"particular  supplier. Eg an ISBN for a book."
 msgstr ""
-"Mã vạch sản phẩm (UPC) là một định danh cho một sản phẩm mà không phải là cụ "
-"thể cho một nhà cung cấp cụ thể. Ví dụ: mã vạch cho một cuốn sách. "
+"Mã vạch sản phẩm (UPC) là một định danh cho một sản phẩm mà không phải là cụ thể cho một "
+"nhà cung cấp cụ thể. Ví dụ: mã vạch cho một cuốn sách."
 
 #: .\wshop\apps\catalogue\abstract_models.py:291
 msgid ""
-"Only choose a parent product if you're creating a child product.  For "
-"example if this is a size 4 of a particular t-shirt.  Leave blank if this is "
-"a stand-alone product (i.e. there is only one version of this product)."
+"Only choose a parent product if you're creating a child product.  For example if this is "
+"a size 4 of a particular t-shirt.  Leave blank if this is a stand-alone product (i.e. "
+"there is only one version of this product)."
 msgstr ""
-"Chỉ chọn một sản phẩm làm  gốc nếu bạn đang tạo ra một sản phẩm nhỏ hơn . Ví "
-"dụ, nếu đây là một kích thước 4 của một t-shirt đặc biệt. Để trống nếu điều "
-"này là một sản phẩm độc lập (tức là chỉ có một phiên bản của sản phẩm này)."
+"Chỉ chọn một sản phẩm làm  gốc nếu bạn đang tạo ra một sản phẩm nhỏ hơn . Ví dụ, nếu đây "
+"là một kích thước 4 của một t-shirt đặc biệt. Để trống nếu điều này là một sản phẩm độc "
+"lập (tức là chỉ có một phiên bản của sản phẩm này)."
 
 #: .\wshop\apps\catalogue\abstract_models.py:298
-#: .\wshop\apps\catalogue\abstract_models.py:544
-#: .\wshop\apps\order\abstract_models.py:517
+#: .\wshop\apps\catalogue\abstract_models.py:544 .\wshop\apps\order\abstract_models.py:517
 #: .\wshop\apps\wishlists\abstract_models.py:127
 #: .\wshop\templates\wshop\dashboard\orders\line_detail.html:37
 #: .\wshop\templates\wshop\dashboard\ranges\range_product_list.html:95
@@ -1113,7 +1035,7 @@ msgstr "Tiêu đề"
 #: .\wshop\apps\dashboard\catalogue\tables.py:25
 #: .\wshop\templates\wshop\dashboard\catalogue\product_class_delete.html:12
 msgid "Product type"
-msgstr "Kiểu sản phẩm "
+msgstr "Kiểu sản phẩm"
 
 #: .\wshop\apps\catalogue\abstract_models.py:311
 msgid "Choose what type of product this is"
@@ -1124,34 +1046,33 @@ msgstr "Chọn loại sản phẩm này là"
 #: .\wshop\templates\wshop\dashboard\catalogue\product_update.html:143
 #: .\wshop\templates\wshop\dashboard\catalogue\product_update.html:254
 msgid "Attributes"
-msgstr "Thuộc tính "
+msgstr "Thuộc tính"
 
 #: .\wshop\apps\catalogue\abstract_models.py:316
 msgid ""
-"A product attribute is something that this product may have, such as a size, "
-"as specified by its class"
+"A product attribute is something that this product may have, such as a size, as "
+"specified by its class"
 msgstr ""
-"Một thuộc tính của sản phẩm là điều mà sản phẩm này có thể có, chẳng hạn như "
-"kích thước, màu sắc..."
+"Một thuộc tính của sản phẩm là điều mà sản phẩm này có thể có, chẳng hạn như kích thước, "
+"màu sắc…v.v"
 
 #: .\wshop\apps\catalogue\abstract_models.py:320
 msgid "Product options"
-msgstr "Lựa chọn sản phẩm "
+msgstr "Lựa chọn sản phẩm"
 
 #: .\wshop\apps\catalogue\abstract_models.py:321
 msgid ""
-"Options are values that can be associated with a item when it is added to a "
-"customer's basket.  This could be something like a personalised message to "
-"be printed on a T-shirt."
+"Options are values that can be associated with a item when it is added to a customer's "
+"basket.  This could be something like a personalised message to be printed on a T-shirt."
 msgstr ""
-"Tùy chọn là giá trị mà có thể được liên kết với một mục khi nó được thêm vào "
-"giỏ của khách hàng. Đây có thể là một cái gì đó giống như một tin nhắn cá "
-"nhân để được in trên một T-shirt."
+"Tùy chọn là giá trị mà có thể được liên kết với một mục khi nó được thêm vào giỏ của "
+"khách hàng. Đây có thể là một cái gì đó giống như một tin nhắn cá nhân để được in trên "
+"một T-shirt."
 
 #: .\wshop\apps\catalogue\abstract_models.py:328
 #: .\wshop\templates\wshop\dashboard\catalogue\product_update.html:297
 msgid "Recommended products"
-msgstr "Sản phẩm đề xuất "
+msgstr "Sản phẩm đề xuất"
 
 #: .\wshop\apps\catalogue\abstract_models.py:329
 msgid "These are products that are recommended to accompany the main product."
@@ -1159,26 +1080,25 @@ msgstr "Đây là những sản phẩm được đề nghị để đi cùng v�
 
 #: .\wshop\apps\catalogue\abstract_models.py:334 .\wshop\defaults.py:225
 msgid "Rating"
-msgstr "Xếp hạng "
+msgstr "Xếp hạng"
 
 #: .\wshop\apps\catalogue\abstract_models.py:340
 #: .\wshop\apps\partner\abstract_models.py:152
 msgid "Date updated"
-msgstr "Ngày cập nhật "
+msgstr "Ngày cập nhật"
 
 #: .\wshop\apps\catalogue\abstract_models.py:352
 msgid "Is discountable?"
-msgstr "Là sản phẩm giảm giá ? "
+msgstr "Là sản phẩm giảm giá ?"
 
 #: .\wshop\apps\catalogue\abstract_models.py:353
 msgid "This flag indicates if this product can be used in an offer or not"
 msgstr ""
-"Đánh dấu  này cho biết sản phẩm này có thể được sử dụng trong một đề xuất "
-"hay không ? "
+"Đánh dấu  này cho biết sản phẩm này có thể được sử dụng trong một đề xuất hay không"
 
 #: .\wshop\apps\catalogue\abstract_models.py:364
-#: .\wshop\apps\dashboard\catalogue\views.py:100
-#: .\wshop\apps\promotions\models.py:273 .\wshop\defaults.py:105
+#: .\wshop\apps\dashboard\catalogue\views.py:100 .\wshop\apps\promotions\models.py:273
+#: .\wshop\defaults.py:105
 #: .\wshop\templates\wshop\dashboard\catalogue\product_delete.html:17
 #: .\wshop\templates\wshop\dashboard\catalogue\product_list.html:11
 #: .\wshop\templates\wshop\dashboard\catalogue\product_list.html:19
@@ -1196,15 +1116,15 @@ msgstr "Sản phẩm của bạn cần một tiêu đề ."
 
 #: .\wshop\apps\catalogue\abstract_models.py:423
 msgid "Your product must have a product class."
-msgstr "Sản phẩm của bạn cần một danh mục sản phẩm "
+msgstr "Sản phẩm của bạn cần một danh mục sản phẩm."
 
 #: .\wshop\apps\catalogue\abstract_models.py:425
 msgid "Only child products can have a parent."
-msgstr "Chỉ sản phẩm con có sản phẩm cha "
+msgstr "Chỉ sản phẩm con có sản phẩm cha."
 
 #: .\wshop\apps\catalogue\abstract_models.py:432
 msgid "A child product needs a parent."
-msgstr "Một sản phẩm con cần sản phẩm cha "
+msgstr "Một sản phẩm con cần sản phẩm cha."
 
 #: .\wshop\apps\catalogue\abstract_models.py:435
 msgid "You can only assign child products to parent products."
@@ -1232,73 +1152,69 @@ msgstr "Các sản phẩm cha có chi tiết là một sản phẩm con."
 
 #: .\wshop\apps\catalogue\abstract_models.py:485
 msgid "One can't add a child product to a product with stock records."
-msgstr ""
-"Người ta không thể thêm một sản phẩm con cho một sản phẩm với các hồ sơ lưu "
-"trữ ."
+msgstr "Người ta không thể thêm một sản phẩm con cho một sản phẩm với các hồ sơ lưu trữ ."
 
 #: .\wshop\apps\catalogue\abstract_models.py:678
 msgid "Primary product"
-msgstr "Sản phẩm chính "
+msgstr "Sản phẩm chính"
 
 #: .\wshop\apps\catalogue\abstract_models.py:682
 msgid "Recommended product"
-msgstr "Sản phẩm đề nghị "
+msgstr "Sản phẩm đề nghị"
 
 #: .\wshop\apps\catalogue\abstract_models.py:684
 msgid "Ranking"
-msgstr "Xếp hạng "
+msgstr "Xếp hạng"
 
 #: .\wshop\apps\catalogue\abstract_models.py:685
 msgid ""
-"Determines order of the products. A product with a higher value will appear "
-"before one with a lower ranking."
+"Determines order of the products. A product with a higher value will appear before one "
+"with a lower ranking."
 msgstr ""
-"Xác định thứ tự của các sản phẩm. Một sản phẩm có giá trị cao hơn sẽ xuất "
-"hiện trước khi một người với một thứ hạng thấp hơn."
+"Xác định thứ tự của các sản phẩm. Một sản phẩm có giá trị cao hơn sẽ xuất hiện trước khi "
+"một người với một thứ hạng thấp hơn."
 
 #: .\wshop\apps\catalogue\abstract_models.py:693
 msgid "Product recommendation"
-msgstr "Sản phẩm đề nghị "
+msgstr "Sản phẩm đề nghị"
 
 #: .\wshop\apps\catalogue\abstract_models.py:694
 msgid "Product recomendations"
-msgstr "Những sản phẩm đề nghị "
+msgstr "Những sản phẩm đề nghị"
 
 #: .\wshop\apps\catalogue\abstract_models.py:717
 #: .\wshop\apps\customer\abstract_models.py:160
 msgid ""
-"Code can only contain the letters a-z, A-Z, digits, and underscores, and "
-"can't start with a digit."
+"Code can only contain the letters a-z, A-Z, digits, and underscores, and can't start "
+"with a digit."
 msgstr ""
-"Mã chỉ có thể bao gồm các ký tự  a-z, A-Z, số , gạch dưới, và không thể bắt "
-"đầu với số."
+"Mã chỉ có thể bao gồm các ký tự  a-z, A-Z, số , gạch dưới, và không thể bắt đầu với số."
 
 #: .\wshop\apps\catalogue\abstract_models.py:736
 #: .\wshop\apps\catalogue\abstract_models.py:933
 msgid "Text"
-msgstr "Chữ "
+msgstr "Chữ"
 
 #: .\wshop\apps\catalogue\abstract_models.py:737
 #: .\wshop\apps\catalogue\abstract_models.py:934
 msgid "Integer"
-msgstr "Số "
+msgstr "Số"
 
 #: .\wshop\apps\catalogue\abstract_models.py:738
 msgid "True / False"
-msgstr "Đúng / Sai "
+msgstr "Đúng / Sai"
 
 #: .\wshop\apps\catalogue\abstract_models.py:739
 #: .\wshop\apps\catalogue\abstract_models.py:936
 msgid "Float"
-msgstr "Số nguyên "
+msgstr "Số nguyên"
 
 #: .\wshop\apps\catalogue\abstract_models.py:740
 msgid "Rich Text"
-msgstr "Nhiều chữ "
+msgstr "Nhiều chữ"
 
 #: .\wshop\apps\catalogue\abstract_models.py:741
-#: .\wshop\apps\catalogue\abstract_models.py:938
-#: .\wshop\apps\order\abstract_models.py:451
+#: .\wshop\apps\catalogue\abstract_models.py:938 .\wshop\apps\order\abstract_models.py:451
 #: .\wshop\templates\wshop\dashboard\orders\line_detail.html:138
 #: .\wshop\templates\wshop\dashboard\orders\line_detail.html:168
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:342
@@ -1306,13 +1222,11 @@ msgstr "Nhiều chữ "
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:529
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:609
 msgid "Date"
-msgstr "Ngày "
+msgstr "Ngày"
 
 #: .\wshop\apps\catalogue\abstract_models.py:742
-#, fuzzy
-#| msgid "End datetime"
 msgid "Datetime"
-msgstr "Thời gian kết thúc"
+msgstr "Thời gian"
 
 #: .\wshop\apps\catalogue\abstract_models.py:744
 #, fuzzy
@@ -1322,29 +1236,27 @@ msgstr "Tùy chọn sản phẩm"
 
 #: .\wshop\apps\catalogue\abstract_models.py:745
 msgid "Entity"
-msgstr "Chủ thể "
+msgstr "Chủ thể"
 
 #: .\wshop\apps\catalogue\abstract_models.py:746
 msgid "File"
-msgstr "Thư mục "
+msgstr "Tệp tin"
 
-#: .\wshop\apps\catalogue\abstract_models.py:751
-#: .\wshop\apps\offer\abstract_models.py:118
-#: .\wshop\apps\offer\abstract_models.py:481
-#: .\wshop\apps\offer\abstract_models.py:699
-#: .\wshop\apps\order\abstract_models.py:816
-#: .\wshop\apps\payment\abstract_models.py:39 .\wshop\defaults.py:224
+#: .\wshop\apps\catalogue\abstract_models.py:751 .\wshop\apps\offer\abstract_models.py:118
+#: .\wshop\apps\offer\abstract_models.py:481 .\wshop\apps\offer\abstract_models.py:699
+#: .\wshop\apps\order\abstract_models.py:816 .\wshop\apps\payment\abstract_models.py:39
+#: .\wshop\defaults.py:224
 #: .\wshop\templates\wshop\dashboard\catalogue\product_class_form.html:99
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:561
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:611
 #: .\wshop\templates\wshop\dashboard\promotions\page_detail.html:37
 #: .\wshop\templates\wshop\dashboard\promotions\promotion_list.html:42
 msgid "Type"
-msgstr "Kiểu "
+msgstr "Kiểu"
 
 #: .\wshop\apps\catalogue\abstract_models.py:759
 msgid "Option Group"
-msgstr "Lựa chọn nhóm "
+msgstr "Lựa chọn nhóm"
 
 #: .\wshop\apps\catalogue\abstract_models.py:760
 #, fuzzy
@@ -1355,29 +1267,29 @@ msgstr "Chọn một nhóm tùy chọn nếu sử dụng \"Tùy chọn\""
 #: .\wshop\apps\catalogue\abstract_models.py:761
 #: .\wshop\templates\wshop\dashboard\catalogue\product_class_form.html:100
 msgid "Required"
-msgstr "Yêu cầu "
+msgstr "Yêu cầu"
 
 #: .\wshop\apps\catalogue\abstract_models.py:767
 msgid "Product attribute"
-msgstr "Thuộc tính sản phẩm "
+msgstr "Thuộc tính sản phẩm"
 
 #: .\wshop\apps\catalogue\abstract_models.py:768
 #: .\wshop\templates\wshop\dashboard\catalogue\product_class_form.html:40
 #: .\wshop\templates\wshop\dashboard\catalogue\product_class_form.html:86
 msgid "Product attributes"
-msgstr "Những thuộc tính sản phẩm "
+msgstr "Những thuộc tính sản phẩm"
 
 #: .\wshop\apps\catalogue\abstract_models.py:850
 msgid "Must be str or unicode"
-msgstr "Phải là chữ hoặc số "
+msgstr "Phải là chữ hoặc số"
 
 #: .\wshop\apps\catalogue\abstract_models.py:857
 msgid "Must be a float"
-msgstr "Phải là số nguyên "
+msgstr "Phải là số nguyên"
 
 #: .\wshop\apps\catalogue\abstract_models.py:863
 msgid "Must be an integer"
-msgstr "Phải là số "
+msgstr "Phải là số nguyên"
 
 #: .\wshop\apps\catalogue\abstract_models.py:867
 msgid "Must be a date or datetime"
@@ -1493,10 +1405,8 @@ msgid "Caption"
 msgstr "Chú thích "
 
 #: .\wshop\apps\catalogue\abstract_models.py:1196
-msgid ""
-"An image with a display order of zero will be the primary image for a product"
-msgstr ""
-"Hình ảnh với số thứ tự hiển thị bằng 0 sẽ là hình ảnh chính cho sản phẩm"
+msgid "An image with a display order of zero will be the primary image for a product"
+msgstr "Hình ảnh với số thứ tự hiển thị bằng 0 sẽ là hình ảnh chính cho sản phẩm"
 
 #: .\wshop\apps\catalogue\abstract_models.py:1206
 msgid "Product image"
@@ -1506,8 +1416,8 @@ msgstr "Hình ảnh sản phẩm "
 msgid "Product images"
 msgstr "Những hình ảnh của sản phẩm "
 
-#: .\wshop\apps\catalogue\config.py:8
-#: .\wshop\apps\dashboard\catalogue\config.py:8 .\wshop\defaults.py:101
+#: .\wshop\apps\catalogue\config.py:8 .\wshop\apps\dashboard\catalogue\config.py:8
+#: .\wshop\defaults.py:101
 msgid "Catalogue"
 msgstr "Danh mục"
 
@@ -1546,8 +1456,7 @@ msgid "Name"
 msgstr "Tên"
 
 #: .\wshop\apps\catalogue\reviews\abstract_models.py:53
-#: .\wshop\apps\dashboard\pages\forms.py:26
-#: .\wshop\apps\dashboard\promotions\forms.py:57
+#: .\wshop\apps\dashboard\pages\forms.py:26 .\wshop\apps\dashboard\promotions\forms.py:57
 #: .\wshop\models\fields\__init__.py:33
 #: .\wshop\templates\wshop\dashboard\pages\index.html:51
 #: .\wshop\templates\wshop\dashboard\promotions\pagepromotion_list.html:43
@@ -1566,7 +1475,7 @@ msgstr "Đồng ý "
 #: .\wshop\apps\catalogue\reviews\abstract_models.py:59
 #: .\wshop\apps\dashboard\reviews\forms.py:12
 msgid "Rejected"
-msgstr "Loại bỏ "
+msgstr "Từ chối"
 
 #: .\wshop\apps\catalogue\reviews\abstract_models.py:67
 msgid "Total Votes"
@@ -1672,8 +1581,7 @@ msgstr "%s không phải là một kho lưu trữ hình ảnh hợp lệ"
 msgid "The given page number was invalid."
 msgstr "Số trang không hợp lệ."
 
-#: .\wshop\apps\catalogue\views.py:135
-#: .\wshop\templates\wshop\partials\nav_primary.html:45
+#: .\wshop\apps\catalogue\views.py:135 .\wshop\templates\wshop\partials\nav_primary.html:45
 msgid "All products"
 msgstr "Tất cả sản phẩm "
 
@@ -1710,11 +1618,10 @@ msgstr "Bạn cần phải thêm một số mặt hàng vào giỏ hàng của b
 #: .\wshop\apps\checkout\session.py:131
 #, python-format
 msgid ""
-"'%(title)s' is no longer available to buy (%(reason)s). Please adjust your "
-"basket to continue"
+"'%(title)s' is no longer available to buy (%(reason)s). Please adjust your basket to "
+"continue"
 msgstr ""
-"'%(title)s'không có sẵn (%(reason)s). Vui lòng điều chỉnh giỏ hàng của bạn "
-"để tiếp tục"
+"'%(title)s'không có sẵn (%(reason)s). Vui lòng điều chỉnh giỏ hàng của bạn để tiếp tục"
 
 #: .\wshop\apps\checkout\session.py:149
 msgid "Please either sign in or enter your email address"
@@ -1726,10 +1633,8 @@ msgstr "Vui lòng chọn địa chỉ giao hàng"
 
 #: .\wshop\apps\checkout\session.py:182
 msgid ""
-"Your previously chosen shipping address is no longer valid.  Please choose "
-"another one"
-msgstr ""
-"Địa chỉ giao hàng cũ của bạn không chính xác. Vui lòng chọn một địa chỉ khác "
+"Your previously chosen shipping address is no longer valid.  Please choose another one"
+msgstr "Địa chỉ giao hàng cũ của bạn không chính xác. Vui lòng chọn một địa chỉ khác "
 
 #: .\wshop\apps\checkout\session.py:192
 msgid "Please choose a shipping method"
@@ -1737,19 +1642,14 @@ msgstr "Vui lòng chọn phương thức giao hàng "
 
 #: .\wshop\apps\checkout\session.py:204
 msgid ""
-"Your previously chosen shipping method is no longer valid.  Please choose "
-"another one"
+"Your previously chosen shipping method is no longer valid.  Please choose another one"
 msgstr ""
-"Phương thức vận chuyển được chọn trước đó của bạn không còn hợp lệ. Hãy chọn "
-"một số khác"
+"Phương thức vận chuyển được chọn trước đó của bạn không còn hợp lệ. Hãy chọn một số khác"
 
 #: .\wshop\apps\checkout\views.py:91
-msgid ""
-"Create your account and then you will be redirected back to the checkout "
-"process"
+msgid "Create your account and then you will be redirected back to the checkout process"
 msgstr ""
-"Tạo tài khoản của bạn và sau đó bạn sẽ được chuyển trở lại các quy trình "
-"thanh toán"
+"Tạo tài khoản của bạn và sau đó bạn sẽ được chuyển trở lại các quy trình thanh toán"
 
 #: .\wshop\apps\checkout\views.py:214
 msgid "Address saved"
@@ -1762,8 +1662,8 @@ msgstr "Xóa địa chỉ "
 #: .\wshop\apps\checkout\views.py:283
 msgid "Shipping is unavailable for your chosen address - please choose another"
 msgstr ""
-"Phương thức vận chuyển không có sẵn cho địa chỉ của bạn lựa chọn - hãy chọn "
-"phương thức khác"
+"Phương thức vận chuyển không có sẵn cho địa chỉ của bạn lựa chọn - hãy chọn phương thức "
+"khác"
 
 #: .\wshop\apps\checkout\views.py:326
 msgid "Your submitted shipping method is not permitted"
@@ -1771,11 +1671,11 @@ msgstr "Phương thức vận chuyển bạn chọn  không được phép"
 
 #: .\wshop\apps\checkout\views.py:572
 msgid ""
-"A problem occurred while processing payment for this order - no payment has "
-"been taken.  Please contact customer services if this problem persists"
+"A problem occurred while processing payment for this order - no payment has been taken.  "
+"Please contact customer services if this problem persists"
 msgstr ""
-"Một vấn đề xảy ra trong khi xử lý thanh toán cho đơn hàng này .Hãy liên hệ "
-"với dịch vụ khách hàng nếu vấn đề này vẫn tồn tại !"
+"Một vấn đề xảy ra trong khi xử lý thanh toán cho đơn hàng này .Hãy liên hệ với dịch vụ "
+"khách hàng nếu vấn đề này vẫn tồn tại !"
 
 #: .\wshop\apps\checkout\views.py:676
 msgid "No order found"
@@ -1793,8 +1693,7 @@ msgstr "tình trạng nhân viên "
 msgid "Designates whether the user can log into this admin site."
 msgstr "Chỉ định xem ai có thể đăng nhập vào trang web quản trị này."
 
-#: .\wshop\apps\customer\abstract_models.py:70
-#: .\wshop\apps\customer\abstract_models.py:355
+#: .\wshop\apps\customer\abstract_models.py:70 .\wshop\apps\customer\abstract_models.py:355
 #: .\wshop\templates\wshop\dashboard\users\detail.html:40
 #: .\wshop\templates\wshop\dashboard\vouchers\voucher_list.html:70
 #: .\wshop\templates\wshop\dashboard\vouchers\voucher_set_detail.html:99
@@ -1804,18 +1703,17 @@ msgstr "Hoạt động "
 
 #: .\wshop\apps\customer\abstract_models.py:71
 msgid ""
-"Designates whether this user should be treated as active. Unselect this "
-"instead of deleting accounts."
+"Designates whether this user should be treated as active. Unselect this instead of "
+"deleting accounts."
 msgstr ""
-"Chỉ định cho người sử dụng này phải được coi là hoạt động. Bỏ chọn này thay "
-"vì xóa tài khoản."
+"Chỉ định cho người sử dụng này phải được coi là hoạt động. Bỏ chọn này thay vì xóa tài "
+"khoản."
 
 #: .\wshop\apps\customer\abstract_models.py:73
 msgid "date joined"
 msgstr "Ngày tham gia "
 
-#: .\wshop\apps\customer\abstract_models.py:83
-#: .\wshop\apps\partner\abstract_models.py:35
+#: .\wshop\apps\customer\abstract_models.py:83 .\wshop\apps\partner\abstract_models.py:35
 #: .\wshop\templates\wshop\dashboard\partners\partner_list.html:45
 #: .\wshop\templates\wshop\dashboard\partners\partner_manage.html:36
 msgid "Users"
@@ -1863,10 +1761,9 @@ msgid "Email to %(user)s with subject '%(subject)s'"
 msgstr "Email cho %(user)s với chủ đề  '%(subject)s'"
 
 #: .\wshop\apps\customer\abstract_models.py:140
-#, fuzzy, python-format
-#| msgid "Email to %(user)s with subject '%(subject)s'"
+#, python-format
 msgid "Anonymous email to %(email)s with subject '%(subject)s'"
-msgstr "Email cho %(user)s với chủ đề  '%(subject)s'"
+msgstr "Email cho %(email)s với chủ đề '%(subject)s'"
 
 #: .\wshop\apps\customer\abstract_models.py:162
 msgid "Code used for looking up this event programmatically"
@@ -1908,8 +1805,7 @@ msgstr "Mẫu SMS "
 msgid "SMS template"
 msgstr "Mẫu SMS "
 
-#: .\wshop\apps\customer\abstract_models.py:200
-#: .\wshop\apps\order\abstract_models.py:415
+#: .\wshop\apps\customer\abstract_models.py:200 .\wshop\apps\order\abstract_models.py:415
 msgid "Date Updated"
 msgstr "Ngày cập nhật "
 
@@ -1954,8 +1850,7 @@ msgstr "Chưa xác nhận "
 msgid "Cancelled"
 msgstr "Hủy bỏ "
 
-#: .\wshop\apps\customer\abstract_models.py:357
-#: .\wshop\apps\partner\abstract_models.py:284
+#: .\wshop\apps\customer\abstract_models.py:357 .\wshop\apps\partner\abstract_models.py:284
 #: .\wshop\templates\wshop\dashboard\catalogue\stockalert_list.html:39
 msgid "Closed"
 msgstr "Đóng "
@@ -2043,8 +1938,7 @@ msgstr "Mật khẩu bạn nhập không đúng "
 msgid "Confirm password"
 msgstr "Xác nhận mật khẩu "
 
-#: .\wshop\apps\customer\forms.py:170
-#: .\wshop\apps\dashboard\partners\forms.py:91
+#: .\wshop\apps\customer\forms.py:170 .\wshop\apps\dashboard\partners\forms.py:91
 msgid "The two password fields didn't match."
 msgstr "Hai mật khẩu chưa giống nhau "
 
@@ -2058,12 +1952,10 @@ msgctxt "end date"
 msgid "To"
 msgstr "Đến "
 
-#: .\wshop\apps\customer\forms.py:198
-#: .\wshop\apps\dashboard\communications\forms.py:24
-#: .\wshop\apps\dashboard\offers\reports.py:14
-#: .\wshop\apps\dashboard\orders\forms.py:68
-#: .\wshop\apps\dashboard\orders\views.py:365
-#: .\wshop\apps\order\abstract_models.py:37 .\wshop\apps\order\reports.py:20
+#: .\wshop\apps\customer\forms.py:198 .\wshop\apps\dashboard\communications\forms.py:24
+#: .\wshop\apps\dashboard\offers\reports.py:14 .\wshop\apps\dashboard\orders\forms.py:68
+#: .\wshop\apps\dashboard\orders\views.py:365 .\wshop\apps\order\abstract_models.py:37
+#: .\wshop\apps\order\reports.py:20
 #: .\wshop\templates\wshop\customer\order\order_list.html:39
 #: .\wshop\templates\wshop\dashboard\comms\detail.html:65
 #: .\wshop\templates\wshop\dashboard\offers\offer_detail.html:105
@@ -2085,10 +1977,9 @@ msgstr "Tất cả các đơn hàng "
 #: .\wshop\apps\customer\forms.py:223
 #, python-format
 msgid ""
-"Orders placed between %(date_from)s and %(date_to)s and order number "
-"containing %(order_number)s"
-msgstr ""
-"Đơh hàng từ  %(date_from)s  đến  %(date_to)s và số đơn hàng  %(order_number)s"
+"Orders placed between %(date_from)s and %(date_to)s and order number containing "
+"%(order_number)s"
+msgstr "Đơh hàng từ  %(date_from)s  đến  %(date_to)s và số đơn hàng  %(order_number)s"
 
 #: .\wshop\apps\customer\forms.py:227 .\wshop\apps\dashboard\orders\forms.py:42
 #, python-format
@@ -2097,9 +1988,7 @@ msgstr "Đơn hàng từ ngày  %(date_from)s đến ngày  %(date_to)s"
 
 #: .\wshop\apps\customer\forms.py:231
 #, python-format
-msgid ""
-"Orders placed since %(date_from)s and order number containing "
-"%(order_number)s"
+msgid "Orders placed since %(date_from)s and order number containing %(order_number)s"
 msgstr "Đơn hàng từ ngày %(date_from)s và số hóa đơn bao gồm  %(order_number)s"
 
 #: .\wshop\apps\customer\forms.py:234
@@ -2109,8 +1998,7 @@ msgstr "Đơn hàng từ %(date_from)s"
 
 #: .\wshop\apps\customer\forms.py:237
 #, python-format
-msgid ""
-"Orders placed until %(date_to)s and order number containing %(order_number)s"
+msgid "Orders placed until %(date_to)s and order number containing %(order_number)s"
 msgstr " Đơn hàng đến ngày %(date_to)s và số đơn hàng %(order_number)s"
 
 #: .\wshop\apps\customer\forms.py:240
@@ -2143,9 +2031,8 @@ msgstr "Đã có thông báo đang hoạt động cho %s"
 #: .\wshop\apps\customer\forms.py:415
 #, python-format
 msgid ""
-"%s has been sent a confirmation email for another product alert on this "
-"site. Please confirm or cancel that request before signing up for more "
-"alerts."
+"%s has been sent a confirmation email for another product alert on this site. Please "
+"confirm or cancel that request before signing up for more alerts."
 msgstr ""
 
 #: .\wshop\apps\customer\forms.py:427
@@ -2192,8 +2079,7 @@ msgstr "Xóa thông tin cá nhân "
 
 #: .\wshop\apps\customer\views.py:367
 msgid "Your profile has now been deleted. Thanks for using the site."
-msgstr ""
-"Thông tin cá nhân của bạn đã được xóa. Cảm  ơn bạn đã ghé thăm chúng tôi "
+msgstr "Thông tin cá nhân của bạn đã được xóa. Cảm  ơn bạn đã ghé thăm chúng tôi "
 
 #: .\wshop\apps\customer\views.py:375
 msgid "Change Password"
@@ -2214,13 +2100,10 @@ msgid "Order History"
 msgstr "Lịch sử đơn hàng "
 
 #: .\wshop\apps\customer\views.py:495 .\wshop\apps\order\abstract_models.py:302
-#: .\wshop\apps\order\abstract_models.py:399
-#: .\wshop\apps\order\abstract_models.py:446
-#: .\wshop\apps\order\abstract_models.py:477
-#: .\wshop\apps\order\abstract_models.py:911
-#: .\wshop\apps\order\abstract_models.py:985
-#: .\wshop\apps\order\abstract_models.py:1100 .\wshop\apps\order\config.py:8
-#: .\wshop\apps\payment\abstract_models.py:76
+#: .\wshop\apps\order\abstract_models.py:399 .\wshop\apps\order\abstract_models.py:446
+#: .\wshop\apps\order\abstract_models.py:477 .\wshop\apps\order\abstract_models.py:911
+#: .\wshop\apps\order\abstract_models.py:985 .\wshop\apps\order\abstract_models.py:1100
+#: .\wshop\apps\order\config.py:8 .\wshop\apps\payment\abstract_models.py:76
 #: .\wshop\apps\voucher\abstract_models.py:281
 #: .\wshop\templates\wshop\dashboard\orders\shippingaddress_form.html:5
 msgid "Order"
@@ -2228,17 +2111,14 @@ msgstr "Đơn hàng "
 
 #: .\wshop\apps\customer\views.py:547
 #, python-format
-msgid ""
-"All available lines from order %(number)s have been added to your basket"
-msgstr ""
-"Tất cả các dòng có sẵn từ thứ tự %(number)s  đã được thêm vào giỏ hàng của "
-"bạn"
+msgid "All available lines from order %(number)s have been added to your basket"
+msgstr "Tất cả các dòng có sẵn từ thứ tự %(number)s  đã được thêm vào giỏ hàng của bạn"
 
 #: .\wshop\apps\customer\views.py:553
 #, python-format
 msgid ""
-"It is not possible to re-order order %(number)s as none of its lines are "
-"available to purchase"
+"It is not possible to re-order order %(number)s as none of its lines are available to "
+"purchase"
 msgstr "Bạn không thể sắp xếp lại số đơn hàng %(number)s  "
 
 #: .\wshop\apps\customer\views.py:590
@@ -2387,9 +2267,7 @@ msgid "Select an option group"
 msgstr "Lựa chọn nhóm "
 
 #: .\wshop\apps\dashboard\catalogue\formsets.py:97
-msgid ""
-"At least one stock record must be set to a partner that you're associated "
-"with."
+msgid "At least one stock record must be set to a partner that you're associated with."
 msgstr "Cần ít nhất một tồn kho để thiết lập liên kết với đối tác "
 
 #: .\wshop\apps\dashboard\catalogue\formsets.py:115
@@ -2562,8 +2440,8 @@ msgstr "Cập nhật loại sản phẩm '%s'"
 msgid "Product type updated successfully"
 msgstr "Loại sản phẩm mới đã được cập nhật "
 
-#: .\wshop\apps\dashboard\catalogue\views.py:743
-#: .\wshop\apps\offer\abstract_models.py:805 .\wshop\defaults.py:109
+#: .\wshop\apps\dashboard\catalogue\views.py:743 .\wshop\apps\offer\abstract_models.py:805
+#: .\wshop\defaults.py:109
 #: .\wshop\templates\wshop\dashboard\catalogue\product_class_list.html:23
 msgid "Product Types"
 msgstr "Các loại sản phẩm "
@@ -2659,8 +2537,7 @@ msgid "Please enter an email address"
 msgstr "Vui lòng nhập địa chỉ email "
 
 #: .\wshop\apps\dashboard\communications\views.py:32
-msgid ""
-"The submitted form was not valid, please correct the errors and resubmit"
+msgid "The submitted form was not valid, please correct the errors and resubmit"
 msgstr "Yêu cầu của bạn chưa hợp lệ, vui lòng kiểm tra lại thông tin bên dưới "
 
 #: .\wshop\apps\dashboard\communications\views.py:41
@@ -2750,14 +2627,12 @@ msgstr "Bảng điều khiển "
 msgid "Offers dashboard"
 msgstr "Cung cấp bảng điều khiển"
 
-#: .\wshop\apps\dashboard\offers\forms.py:25
-#: .\wshop\apps\offer\abstract_models.py:153
+#: .\wshop\apps\dashboard\offers\forms.py:25 .\wshop\apps\offer\abstract_models.py:153
 #: .\wshop\templates\wshop\dashboard\offers\offer_list.html:47
 msgid "Start date"
 msgstr "Ngày bắt đầu "
 
-#: .\wshop\apps\dashboard\offers\forms.py:28
-#: .\wshop\apps\offer\abstract_models.py:157
+#: .\wshop\apps\dashboard\offers\forms.py:28 .\wshop\apps\offer\abstract_models.py:157
 #: .\wshop\templates\wshop\dashboard\offers\offer_list.html:48
 msgid "End date"
 msgstr "Ngày kết thúc "
@@ -2771,8 +2646,7 @@ msgid "Custom condition"
 msgstr "Điều kiện khách hàng "
 
 #: .\wshop\apps\dashboard\offers\forms.py:87
-msgid ""
-"Please either choose a range, type and value OR select a custom condition"
+msgid "Please either choose a range, type and value OR select a custom condition"
 msgstr "Xin vui lòng chọn loại và giá trị hoặc chọn một điều kiện tùy chỉnh"
 
 #: .\wshop\apps\dashboard\offers\forms.py:93
@@ -2784,18 +2658,15 @@ msgid "Custom incentive"
 msgstr "Tuỳ chỉnh ưu đãi"
 
 #: .\wshop\apps\dashboard\offers\forms.py:140
-msgid ""
-"Please either choose a range, type and value OR select a custom incentive"
+msgid "Please either choose a range, type and value OR select a custom incentive"
 msgstr "Xin vui lòng chọn loại và giá trị hoặc chọn một ưu đãi tùy chỉnh"
 
 #: .\wshop\apps\dashboard\offers\forms.py:146
 msgid "No other options can be set if you are using a custom incentive"
 msgstr ""
-"Không có lựa chọn khác có thể được thiết lập nếu bạn đang sử dụng một ưu đãi "
-"tùy chỉnh"
+"Không có lựa chọn khác có thể được thiết lập nếu bạn đang sử dụng một ưu đãi tùy chỉnh"
 
-#: .\wshop\apps\dashboard\offers\forms.py:161
-#: .\wshop\apps\order\abstract_models.py:1117
+#: .\wshop\apps\dashboard\offers\forms.py:161 .\wshop\apps\order\abstract_models.py:1117
 #: .\wshop\templates\wshop\dashboard\offers\offer_list.html:46
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:563
 msgid "Offer name"
@@ -2904,8 +2775,7 @@ msgstr "Các đơn hàng từ %s"
 msgid "Orders placed until %s"
 msgstr "Các đơn đặt hàng cho đến khi %s"
 
-#: .\wshop\apps\dashboard\orders\forms.py:69
-#: .\wshop\apps\dashboard\reviews\forms.py:30
+#: .\wshop\apps\dashboard\orders\forms.py:69 .\wshop\apps\dashboard\reviews\forms.py:30
 msgid "Customer name"
 msgstr "Tên khách hàng "
 
@@ -2913,21 +2783,18 @@ msgstr "Tên khách hàng "
 msgid "Product name"
 msgstr "Tên sản phẩm "
 
-#: .\wshop\apps\dashboard\orders\forms.py:72
-#: .\wshop\apps\order\abstract_models.py:491
+#: .\wshop\apps\dashboard\orders\forms.py:72 .\wshop\apps\order\abstract_models.py:491
 #: .\wshop\apps\partner\abstract_models.py:109
 #: .\wshop\templates\wshop\dashboard\orders\line_detail.html:80
 msgid "Partner SKU"
 msgstr "Đối tác SKU "
 
-#: .\wshop\apps\dashboard\orders\forms.py:81
-#: .\wshop\apps\dashboard\reports\forms.py:24
+#: .\wshop\apps\dashboard\orders\forms.py:81 .\wshop\apps\dashboard\reports\forms.py:24
 #: .\wshop\apps\dashboard\reviews\forms.py:28
 msgid "Date from"
 msgstr "Từ ngày "
 
-#: .\wshop\apps\dashboard\orders\forms.py:83
-#: .\wshop\apps\dashboard\reports\forms.py:26
+#: .\wshop\apps\dashboard\orders\forms.py:83 .\wshop\apps\dashboard\reports\forms.py:26
 msgid "Date to"
 msgstr "Đến ngày "
 
@@ -2940,8 +2807,7 @@ msgstr "Mã phiếu khuyến mãi "
 msgid "Payment method"
 msgstr "Phương thức thanh toán "
 
-#: .\wshop\apps\dashboard\orders\forms.py:91
-#: .\wshop\apps\promotions\models.py:154
+#: .\wshop\apps\dashboard\orders\forms.py:91 .\wshop\apps\promotions\models.py:154
 msgid "HTML"
 msgstr "HTML "
 
@@ -3067,8 +2933,7 @@ msgstr "Tên người nhận hàng "
 msgid "Bill to name"
 msgstr "Tên ghi trên hóa đơn "
 
-#: .\wshop\apps\dashboard\orders\views.py:408
-#: .\wshop\apps\dashboard\orders\views.py:637
+#: .\wshop\apps\dashboard\orders\views.py:408 .\wshop\apps\dashboard\orders\views.py:637
 #, python-format
 msgid "The new status '%s' is not valid"
 msgstr "Trạng thái mới '%s' không hợp lệ "
@@ -3078,25 +2943,22 @@ msgstr "Trạng thái mới '%s' không hợp lệ "
 msgid "The new status '%s' is not valid for this order"
 msgstr "Trạng thái mới '%s' không hợp lệ cho đơn hàng này "
 
-#: .\wshop\apps\dashboard\orders\views.py:419
-#: .\wshop\apps\dashboard\orders\views.py:608
+#: .\wshop\apps\dashboard\orders\views.py:419 .\wshop\apps\dashboard\orders\views.py:608
 #, python-format
 msgid "Unable to change order status due to payment error: %s"
 msgstr "Không thể thay đổi trạng thái đơn hàng do lỗi thanh toán: %s "
 
-#: .\wshop\apps\dashboard\orders\views.py:422
-#: .\wshop\apps\dashboard\orders\views.py:600
+#: .\wshop\apps\dashboard\orders\views.py:422 .\wshop\apps\dashboard\orders\views.py:600
 #, python-format
 msgid "Order status changed from '%(old_status)s' to '%(new_status)s'"
-msgstr ""
-"Trạng thái đơn hàng thay đổi từ  '%(old_status)s' đến  '%(new_status)s'"
+msgstr "Trạng thái đơn hàng thay đổi từ  '%(old_status)s' đến  '%(new_status)s'"
 
 #: .\wshop\apps\dashboard\orders\views.py:471
 msgid "No valid action submitted"
 msgstr "Yêu cầu gửi không hợp lệ "
 
-#: .\wshop\apps\dashboard\orders\views.py:475
-#: .\wshop\apps\dashboard\orders\views.py:480 .\wshop\views\generic.py:64
+#: .\wshop\apps\dashboard\orders\views.py:475 .\wshop\apps\dashboard\orders\views.py:480
+#: .\wshop\views\generic.py:64
 msgid "Invalid action"
 msgstr "Hành động không hợp lệ "
 
@@ -3115,9 +2977,7 @@ msgstr "Số lượng nhập cho dòng #%s không hợp lệ "
 
 #: .\wshop\apps\dashboard\orders\views.py:506
 #, python-format
-msgid ""
-"The entered quantity for line #%(line_id)s should not be higher than "
-"%(quantity)s"
+msgid "The entered quantity for line #%(line_id)s should not be higher than %(quantity)s"
 msgstr "Số lượng nhập cho dòng #%(line_id)s không nên cao hơn %(quantity)s"
 
 #: .\wshop\apps\dashboard\orders\views.py:575
@@ -3140,8 +3000,7 @@ msgstr "Yêu cầu gửi đi không hợp lệ "
 msgid "Unable to change order status as the requested new status is not valid"
 msgstr "Không thể thay đổi trạng thái đơn đặt hàng "
 
-#: .\wshop\apps\dashboard\orders\views.py:628
-#: .\wshop\apps\dashboard\orders\views.py:704
+#: .\wshop\apps\dashboard\orders\views.py:628 .\wshop\apps\dashboard\orders\views.py:704
 msgid "Please choose a valid amount"
 msgstr "Vui lòng chọn một số tiền hợp lệ"
 
@@ -3152,20 +3011,15 @@ msgstr "'%(status)s' không hợp lệ cho  %(line_id)d"
 
 #: .\wshop\apps\dashboard\orders\views.py:652
 #, python-format
-msgid ""
-"Status of line #%(line_id)d changed from '%(old_status)s' to '%(new_status)s'"
-msgstr ""
-"Trạng thái của  #%(line_id)d thay đổi từ  '%(old_status)s'  sang "
-"'%(new_status)s'"
+msgid "Status of line #%(line_id)d changed from '%(old_status)s' to '%(new_status)s'"
+msgstr "Trạng thái của  #%(line_id)d thay đổi từ  '%(old_status)s'  sang '%(new_status)s'"
 
-#: .\wshop\apps\dashboard\orders\views.py:669
-#: .\wshop\apps\dashboard\orders\views.py:717
+#: .\wshop\apps\dashboard\orders\views.py:669 .\wshop\apps\dashboard\orders\views.py:717
 #, python-format
 msgid "The event type '%s' is not valid"
 msgstr "Loại sự kiện '%s' không hợp lệ "
 
-#: .\wshop\apps\dashboard\orders\views.py:680
-#: .\wshop\apps\dashboard\orders\views.py:683
+#: .\wshop\apps\dashboard\orders\views.py:680 .\wshop\apps\dashboard\orders\views.py:683
 #, python-format
 msgid "Unable to create shipping event: %s"
 msgstr "Không thể tạo sự kiện vận chuyển : %s"
@@ -3227,8 +3081,8 @@ msgstr "Ví dụ : 'thông tin về chúng tôi/ liên hệ '."
 
 #: .\wshop\apps\dashboard\pages\forms.py:33
 msgid ""
-"This value must contain only letters, numbers, dots, underscores, dashes, "
-"slashes or tildes."
+"This value must contain only letters, numbers, dots, underscores, dashes, slashes or "
+"tildes."
 msgstr ""
 
 #: .\wshop\apps\dashboard\pages\views.py:37
@@ -3253,8 +3107,7 @@ msgstr "Xóa trang '%s'"
 msgid "Partners dashboard"
 msgstr "Bảng điều khiển đối tác "
 
-#: .\wshop\apps\dashboard\partners\forms.py:18
-#: .\wshop\apps\dashboard\partners\forms.py:134
+#: .\wshop\apps\dashboard\partners\forms.py:18 .\wshop\apps\dashboard\partners\forms.py:134
 #: .\wshop\apps\partner\abstract_models.py:29
 msgctxt "Partner's name"
 msgid "Name"
@@ -3268,8 +3121,7 @@ msgstr "Đầy đủ quyền truy cập bảng điều khiển "
 msgid "Limited dashboard access"
 msgstr "Giới hạn truy cập bảng điều khiển "
 
-#: .\wshop\apps\dashboard\partners\forms.py:43
-#: .\wshop\apps\dashboard\partners\forms.py:75
+#: .\wshop\apps\dashboard\partners\forms.py:43 .\wshop\apps\dashboard\partners\forms.py:75
 msgid "User role"
 msgstr "Vai trò người dùng"
 
@@ -3348,8 +3200,7 @@ msgstr "Bảng điều khiển khuyến mãi "
 msgid "Promotion type"
 msgstr "Kiểu khuyến mãi "
 
-#: .\wshop\apps\dashboard\promotions\forms.py:60
-#: .\wshop\apps\promotions\models.py:23
+#: .\wshop\apps\dashboard\promotions\forms.py:60 .\wshop\apps\promotions\models.py:23
 msgid "Position"
 msgstr "Vị trí"
 
@@ -3432,8 +3283,7 @@ msgstr "Hoặc bằng dấu phẩy, hoặc một định danh cho mỗi dòng"
 msgid "You must submit either a list of SKU/UPCs or a file"
 msgstr "Bạn phải gửi hoặc là một danh sách các SKU / UPCs hoặc một tập tin"
 
-#: .\wshop\apps\dashboard\ranges\forms.py:59
-#: .\wshop\apps\dashboard\ranges\views.py:164
+#: .\wshop\apps\dashboard\ranges\forms.py:59 .\wshop\apps\dashboard\ranges\views.py:164
 #, python-format
 msgid "The products with SKUs or UPCs matching %s are already in this range"
 msgstr "Sản phẩm với SKUs hoặc UPCs khớp với %s đã tồn tại trong phạm vi "
@@ -3469,10 +3319,9 @@ msgid "No product(s) were found with SKU or UPC matching %s"
 msgstr "Không tồn tại (những sản phẩm )với  SKU or UPC khớp với  %s"
 
 #: .\wshop\apps\dashboard\ranges\views.py:213
-#, fuzzy, python-format
-#| msgid "There are no product types."
+#, python-format
 msgid "There are more than one product with SKU %s"
-msgstr "Không có loại sản phẩm nào."
+msgstr "Không có loại sản phẩm nào có SKU %s"
 
 #: .\wshop\apps\dashboard\reports\config.py:8
 msgid "Reports dashboard"
@@ -3512,8 +3361,7 @@ msgstr "Bạn không có quyền truy cập vào báo cáo này"
 msgid "Reviews dashboard"
 msgstr "Nhận xét bảng điểu khiển"
 
-#: .\wshop\apps\dashboard\reviews\forms.py:25
-#: .\wshop\apps\promotions\models.py:70
+#: .\wshop\apps\dashboard\reviews\forms.py:25 .\wshop\apps\promotions\models.py:70
 msgid "Keyword"
 msgstr "Từ khóa"
 
@@ -3523,12 +3371,8 @@ msgstr "tới"
 
 #: .\wshop\apps\dashboard\reviews\views.py:29
 #, python-format
-msgid ""
-"%(main_filter)s %(date_filter)s %(status_filter)s%(kw_filter)s "
-"%(name_filter)s"
-msgstr ""
-"%(main_filter)s %(date_filter)s %(status_filter)s%(kw_filter)s "
-"%(name_filter)s"
+msgid "%(main_filter)s %(date_filter)s %(status_filter)s%(kw_filter)s %(name_filter)s"
+msgstr "%(main_filter)s %(date_filter)s %(status_filter)s%(kw_filter)s %(name_filter)s"
 
 #: .\wshop\apps\dashboard\reviews\views.py:52
 #, python-format
@@ -3551,8 +3395,7 @@ msgstr "đã tạo từ %(start_date)s đến %(end_date)s"
 msgid "All reviews"
 msgstr "Tất cả nhận xét"
 
-#: .\wshop\apps\dashboard\reviews\views.py:103
-#: .\wshop\apps\dashboard\users\views.py:176
+#: .\wshop\apps\dashboard\reviews\views.py:103 .\wshop\apps\dashboard\users\views.py:176
 #, python-format
 msgid " with status matching '%s'"
 msgstr "kết hợp với tình trạng '%s'"
@@ -3562,8 +3405,7 @@ msgstr "kết hợp với tình trạng '%s'"
 msgid " with keyword matching '%s'"
 msgstr "kết hợp với từ khóa '%s'"
 
-#: .\wshop\apps\dashboard\reviews\views.py:132
-#: .\wshop\apps\dashboard\users\views.py:193
+#: .\wshop\apps\dashboard\reviews\views.py:132 .\wshop\apps\dashboard\users\views.py:193
 #, python-format
 msgid " with customer name matching '%s'"
 msgstr "kết hợp với tên khách hàng '%s'"
@@ -3635,76 +3477,64 @@ msgstr "Thông báo sản phẩm đã xóa"
 msgid "Vouchers dashboard"
 msgstr "Bảng điều khiển phiếu giảm giá"
 
-#: .\wshop\apps\dashboard\vouchers\forms.py:23
-#: .\wshop\apps\voucher\abstract_models.py:40
+#: .\wshop\apps\dashboard\vouchers\forms.py:23 .\wshop\apps\voucher\abstract_models.py:40
 #: .\wshop\apps\voucher\abstract_models.py:146
 #: .\wshop\templates\wshop\dashboard\vouchers\voucher_delete.html:39
 #: .\wshop\templates\wshop\dashboard\vouchers\voucher_detail.html:34
 msgid "Start datetime"
 msgstr "Thời gian bắt đầu"
 
-#: .\wshop\apps\dashboard\vouchers\forms.py:26
-#: .\wshop\apps\voucher\abstract_models.py:41
+#: .\wshop\apps\dashboard\vouchers\forms.py:26 .\wshop\apps\voucher\abstract_models.py:41
 #: .\wshop\apps\voucher\abstract_models.py:147
 #: .\wshop\templates\wshop\dashboard\vouchers\voucher_delete.html:40
 #: .\wshop\templates\wshop\dashboard\vouchers\voucher_detail.html:35
 msgid "End datetime"
 msgstr "Thời gian kết thúc"
 
-#: .\wshop\apps\dashboard\vouchers\forms.py:28
-#: .\wshop\apps\voucher\abstract_models.py:143
+#: .\wshop\apps\dashboard\vouchers\forms.py:28 .\wshop\apps\voucher\abstract_models.py:143
 #: .\wshop\templates\wshop\dashboard\vouchers\voucher_delete.html:41
 #: .\wshop\templates\wshop\dashboard\vouchers\voucher_detail.html:36
 msgid "Usage"
 msgstr "Cách sử dụng"
 
-#: .\wshop\apps\dashboard\vouchers\forms.py:31
-#: .\wshop\apps\dashboard\vouchers\forms.py:122
+#: .\wshop\apps\dashboard\vouchers\forms.py:31 .\wshop\apps\dashboard\vouchers\forms.py:122
 msgid "Which products get a discount?"
 msgstr "Những sản phẩm nào được giảm giá?"
 
-#: .\wshop\apps\dashboard\vouchers\forms.py:35
-#: .\wshop\apps\dashboard\vouchers\forms.py:126
+#: .\wshop\apps\dashboard\vouchers\forms.py:35 .\wshop\apps\dashboard\vouchers\forms.py:126
 msgid "Percentage off of products in range"
 msgstr "Tỷ lệ giảm giá của các sản phẩm trong phạm vi"
 
-#: .\wshop\apps\dashboard\vouchers\forms.py:36
-#: .\wshop\apps\dashboard\vouchers\forms.py:127
+#: .\wshop\apps\dashboard\vouchers\forms.py:36 .\wshop\apps\dashboard\vouchers\forms.py:127
 msgid "Fixed amount off of products in range"
 msgstr "Cố định số tiền giảm giá của các sản phẩm trong phạm vi"
 
-#: .\wshop\apps\dashboard\vouchers\forms.py:38
-#: .\wshop\apps\dashboard\vouchers\forms.py:129
+#: .\wshop\apps\dashboard\vouchers\forms.py:38 .\wshop\apps\dashboard\vouchers\forms.py:129
 #: .\wshop\apps\offer\abstract_models.py:477
 msgid "Discount is a percentage off of the shipping cost"
 msgstr "Chiết khấu là một tỷ lệ phần trăm của chi phí vận chuyển"
 
-#: .\wshop\apps\dashboard\vouchers\forms.py:40
-#: .\wshop\apps\dashboard\vouchers\forms.py:131
+#: .\wshop\apps\dashboard\vouchers\forms.py:40 .\wshop\apps\dashboard\vouchers\forms.py:131
 #: .\wshop\apps\offer\abstract_models.py:475
 msgid "Discount is a fixed amount of the shipping cost"
 msgstr "Chiết khấu là một số tiền cố định của chi phí vận chuyển"
 
-#: .\wshop\apps\dashboard\vouchers\forms.py:41
-#: .\wshop\apps\dashboard\vouchers\forms.py:132
+#: .\wshop\apps\dashboard\vouchers\forms.py:41 .\wshop\apps\dashboard\vouchers\forms.py:132
 #: .\wshop\apps\offer\abstract_models.py:476
 msgid "Get shipping for a fixed price"
 msgstr "Nhận vận chuyển với một mức giá cố định"
 
-#: .\wshop\apps\dashboard\vouchers\forms.py:45
-#: .\wshop\apps\dashboard\vouchers\forms.py:136
+#: .\wshop\apps\dashboard\vouchers\forms.py:45 .\wshop\apps\dashboard\vouchers\forms.py:136
 msgid "Discount type"
 msgstr "Loại giảm giá"
 
-#: .\wshop\apps\dashboard\vouchers\forms.py:48
-#: .\wshop\apps\dashboard\vouchers\forms.py:139
+#: .\wshop\apps\dashboard\vouchers\forms.py:48 .\wshop\apps\dashboard\vouchers\forms.py:139
 msgid "Discount value"
 msgstr "Giá trị giảm giá"
 
-#: .\wshop\apps\dashboard\vouchers\forms.py:52
-#: .\wshop\apps\offer\abstract_models.py:122
+#: .\wshop\apps\dashboard\vouchers\forms.py:52 .\wshop\apps\offer\abstract_models.py:122
 msgid "Exclusive offers cannot be combined on the same items"
-msgstr ""
+msgstr "Exclusive offers không thể gộp dùng chung trong một sản phẩm"
 
 #: .\wshop\apps\dashboard\vouchers\forms.py:66
 #, python-format
@@ -3720,8 +3550,7 @@ msgstr "Mã  '%s' đã được sử dụng"
 msgid "The start date must be before the end date"
 msgstr "Ngày bắt đầu phải trước ngày kết thúc"
 
-#: .\wshop\apps\dashboard\vouchers\forms.py:97
-#: .\wshop\apps\dashboard\vouchers\forms.py:150
+#: .\wshop\apps\dashboard\vouchers\forms.py:97 .\wshop\apps\dashboard\vouchers\forms.py:150
 msgid "Is Active?"
 msgstr "Hoạt động ?"
 
@@ -3731,15 +3560,13 @@ msgstr "Hoạt động ?"
 msgid "In Voucherset?"
 msgstr "Phiếu giảm giá"
 
-#: .\wshop\apps\dashboard\vouchers\views.py:34
-#: .\wshop\apps\dashboard\vouchers\views.py:360
+#: .\wshop\apps\dashboard\vouchers\views.py:34 .\wshop\apps\dashboard\vouchers\views.py:360
 #: .\wshop\apps\dashboard\vouchers\views.py:419
 #, python-format
 msgid "%(main_filter)s %(name_filter)s %(code_filter)s"
 msgstr "%(main_filter)s %(name_filter)s %(code_filter)s"
 
-#: .\wshop\apps\dashboard\vouchers\views.py:43
-#: .\wshop\apps\dashboard\vouchers\views.py:379
+#: .\wshop\apps\dashboard\vouchers\views.py:43 .\wshop\apps\dashboard\vouchers\views.py:379
 msgid "All vouchers"
 msgstr "Tất cả phiếu giảm giá"
 
@@ -3748,14 +3575,12 @@ msgstr "Tất cả phiếu giảm giá"
 msgid "with name matching '%s'"
 msgstr "kết hợp với tên '%s'"
 
-#: .\wshop\apps\dashboard\vouchers\views.py:65
-#: .\wshop\apps\dashboard\vouchers\views.py:399
+#: .\wshop\apps\dashboard\vouchers\views.py:65 .\wshop\apps\dashboard\vouchers\views.py:399
 #, python-format
 msgid "with code '%s'"
 msgstr "với code '%s'"
 
-#: .\wshop\apps\dashboard\vouchers\views.py:69
-#: .\wshop\apps\dashboard\vouchers\views.py:403
+#: .\wshop\apps\dashboard\vouchers\views.py:69 .\wshop\apps\dashboard\vouchers\views.py:403
 msgid "Active vouchers"
 msgstr "Kích hoạt phiếu giảm giá"
 
@@ -3820,10 +3645,8 @@ msgid "Site offer - available to all users"
 msgstr "Trang web cung cấp - có sẵn cho tất cả người dùng"
 
 #: .\wshop\apps\offer\abstract_models.py:111
-msgid ""
-"Voucher offer - only available after entering the appropriate voucher code"
-msgstr ""
-"Phiếu giảm giá cung cấp - chỉ có sẵn sau khi nhập phiếu giảm giá phù hợp"
+msgid "Voucher offer - only available after entering the appropriate voucher code"
+msgstr "Phiếu giảm giá cung cấp - chỉ có sẵn sau khi nhập phiếu giảm giá phù hợp"
 
 #: .\wshop\apps\offer\abstract_models.py:113
 msgid "User offer - available to certain types of user"
@@ -3831,11 +3654,10 @@ msgstr "Người sử dụng cung cấp - có sẵn cho một số loại ngư�
 
 #: .\wshop\apps\offer\abstract_models.py:114
 msgid ""
-"Session offer - temporary offer, available for a user for the duration of "
-"their session"
+"Session offer - temporary offer, available for a user for the duration of their session"
 msgstr ""
-"Phiên phục vụ - tạm thời phục vụ, sẵn sàng cho một người sử dụng trong suốt "
-"thời gian của phiên họp của họ"
+"Phiên phục vụ - tạm thời phục vụ, sẵn sàng cho một người sử dụng trong suốt thời gian "
+"của phiên họp của họ"
 
 #: .\wshop\apps\offer\abstract_models.py:121
 #, fuzzy
@@ -3843,16 +3665,14 @@ msgstr ""
 msgid "Exclusive offer"
 msgstr "Tạm ngưng ưu đãi"
 
-#: .\wshop\apps\offer\abstract_models.py:135
-#: .\wshop\apps\offer\abstract_models.py:710
+#: .\wshop\apps\offer\abstract_models.py:135 .\wshop\apps\offer\abstract_models.py:710
 #: .\wshop\templates\wshop\dashboard\offers\offer_detail.html:76
 #: .\wshop\templates\wshop\dashboard\offers\offer_list.html:51
 #: .\wshop\templates\wshop\dashboard\offers\summary.html:26
 msgid "Condition"
 msgstr "Điều kiện"
 
-#: .\wshop\apps\offer\abstract_models.py:140
-#: .\wshop\apps\offer\abstract_models.py:504
+#: .\wshop\apps\offer\abstract_models.py:140 .\wshop\apps\offer\abstract_models.py:504
 msgid "Benefit"
 msgstr "Lợi ích"
 
@@ -3867,16 +3687,14 @@ msgstr "Những ưu tiên cao nhất được áp dụng đầu tiên"
 
 #: .\wshop\apps\offer\abstract_models.py:154
 msgid ""
-"Offers are active from the start date. Leave this empty if the offer has no "
-"start date."
+"Offers are active from the start date. Leave this empty if the offer has no start date."
 msgstr ""
 
 #: .\wshop\apps\offer\abstract_models.py:158
 #, fuzzy
 #| msgid "Offers are active until the end of the 'end date'"
 msgid ""
-"Offers are active until the end date. Leave this empty if the offer has no "
-"expiry date."
+"Offers are active until the end date. Leave this empty if the offer has no expiry date."
 msgstr "Những đề nghị đang hoạt động cho đến khi kết thúc 'ngày kết thúc'"
 
 #: .\wshop\apps\offer\abstract_models.py:166
@@ -3909,11 +3727,11 @@ msgstr "Giảm giá tối đa"
 
 #: .\wshop\apps\offer\abstract_models.py:192
 msgid ""
-"When an offer has given more discount to orders than this threshold, then "
-"the offer becomes unavailable"
+"When an offer has given more discount to orders than this threshold, then the offer "
+"becomes unavailable"
 msgstr ""
-"Khi một dịch vụ đã được giảm giá trên nhiều đơn hàng hơn ngưỡng này, thì "
-"dịch vụ ngừng hoạt động"
+"Khi một dịch vụ đã được giảm giá trên nhiều đơn hàng hơn ngưỡng này, thì dịch vụ ngừng "
+"hoạt động"
 
 #: .\wshop\apps\offer\abstract_models.py:201
 msgid "Total Discount"
@@ -3939,8 +3757,7 @@ msgstr "Có điều kiện"
 msgid "Conditional offers"
 msgstr "Có những điều kiện"
 
-#: .\wshop\apps\offer\abstract_models.py:246
-#: .\wshop\apps\voucher\abstract_models.py:178
+#: .\wshop\apps\offer\abstract_models.py:246 .\wshop\apps\voucher\abstract_models.py:178
 msgid "End date should be later than start date"
 msgstr "Ngày kết thúc phải sau ngày bắt đầu"
 
@@ -3991,10 +3808,8 @@ msgstr "Khả dụng tới %(end)s"
 msgid "Limited to a cost of %(max)s"
 msgstr "Giới hạn trong một chi phí %(max)s"
 
-#: .\wshop\apps\offer\abstract_models.py:461
-#: .\wshop\apps\offer\abstract_models.py:698
-#: .\wshop\apps\offer\abstract_models.py:827
-#: .\wshop\apps\offer\abstract_models.py:1035
+#: .\wshop\apps\offer\abstract_models.py:461 .\wshop\apps\offer\abstract_models.py:698
+#: .\wshop\apps\offer\abstract_models.py:827 .\wshop\apps\offer\abstract_models.py:1035
 msgid "Range"
 msgstr "Phạm vi"
 
@@ -4020,14 +3835,13 @@ msgstr "Vật phẩm bị ảnh hưởng lớn nhất"
 
 #: .\wshop\apps\offer\abstract_models.py:493
 msgid ""
-"Set this to prevent the discount consuming all items within the range that "
-"are in the basket."
+"Set this to prevent the discount consuming all items within the range that are in the "
+"basket."
 msgstr ""
-"Thiết lập này để ngăn chặn chiết khấu trên tất cả các vật phẩm không nằm "
-"trong phạm vi của giỏ hàng"
+"Thiết lập này để ngăn chặn chiết khấu trên tất cả các vật phẩm không nằm trong phạm vi "
+"của giỏ hàng"
 
-#: .\wshop\apps\offer\abstract_models.py:499
-#: .\wshop\apps\offer\abstract_models.py:705
+#: .\wshop\apps\offer\abstract_models.py:499 .\wshop\apps\offer\abstract_models.py:705
 #: .\wshop\apps\offer\abstract_models.py:812
 msgid "Custom class"
 msgstr "Lớp tùy chọn"
@@ -4046,23 +3860,19 @@ msgstr "Lợi ích mua nhiều không yêu cầu một giá trị"
 
 #: .\wshop\apps\offer\abstract_models.py:547
 msgid "Multibuy benefits don't require a 'max affected items' attribute"
-msgstr ""
-"Lợi ích mua nhiều không yêu cầu thuộc tính 'những vật phẩm ảnh hưởng lớn "
-"nhất'"
+msgstr "Lợi ích mua nhiều không yêu cầu thuộc tính 'những vật phẩm ảnh hưởng lớn nhất'"
 
 #: .\wshop\apps\offer\abstract_models.py:557
 msgid "Percentage benefits require a product range"
 msgstr "Lợi ích phần trăm yêu cầu một phạm vi sản phẩm"
 
-#: .\wshop\apps\offer\abstract_models.py:560
-#: .\wshop\apps\offer\abstract_models.py:585
+#: .\wshop\apps\offer\abstract_models.py:560 .\wshop\apps\offer\abstract_models.py:585
 #, fuzzy
 #| msgid "Fixed discount benefits require a value"
 msgid "Percentage discount benefits require a value"
 msgstr "Lợi ích chiết khấu cố định yêu cầu một giá trị"
 
-#: .\wshop\apps\offer\abstract_models.py:562
-#: .\wshop\apps\offer\abstract_models.py:587
+#: .\wshop\apps\offer\abstract_models.py:562 .\wshop\apps\offer\abstract_models.py:587
 msgid "Percentage discount cannot be greater than 100"
 msgstr "Chiết khấu phần trăm không thể lớn hơn 100"
 
@@ -4070,28 +3880,20 @@ msgstr "Chiết khấu phần trăm không thể lớn hơn 100"
 msgid "A discount value is required"
 msgstr "Giá trị chiết khấu là bắt buộc"
 
-#: .\wshop\apps\offer\abstract_models.py:572
-#: .\wshop\apps\offer\abstract_models.py:590
+#: .\wshop\apps\offer\abstract_models.py:572 .\wshop\apps\offer\abstract_models.py:590
 #: .\wshop\apps\offer\abstract_models.py:601
 msgid "No range should be selected as this benefit does not apply to products"
-msgstr ""
-"Chưa có phạm vi cần được lựa chọn như lợi ích này không áp dụng cho các sản "
-"phẩm"
+msgstr "Chưa có phạm vi cần được lựa chọn như lợi ích này không áp dụng cho các sản phẩm"
 
-#: .\wshop\apps\offer\abstract_models.py:575
-#: .\wshop\apps\offer\abstract_models.py:593
+#: .\wshop\apps\offer\abstract_models.py:575 .\wshop\apps\offer\abstract_models.py:593
 #: .\wshop\apps\offer\abstract_models.py:604
 msgid "Shipping discounts don't require a 'max affected items' attribute"
-msgstr ""
-"Chiết khấu vận chuyển không yêu cầu thuộc tính 'những vật phẩm ảnh hưởng lớn "
-"nhất'"
+msgstr "Chiết khấu vận chuyển không yêu cầu thuộc tính 'những vật phẩm ảnh hưởng lớn nhất'"
 
 #: .\wshop\apps\offer\abstract_models.py:613
-msgid ""
-"No range should be selected as the condition range will be used instead."
+msgid "No range should be selected as the condition range will be used instead."
 msgstr ""
-"Chưa có phạm vi cần được lựa chọn như phạm vi điều kiện sẽ được sử dụng để "
-"thay thế."
+"Chưa có phạm vi cần được lựa chọn như phạm vi điều kiện sẽ được sử dụng để thay thế."
 
 #: .\wshop\apps\offer\abstract_models.py:619
 msgid "Fixed discount benefits require a product range"
@@ -4108,14 +3910,11 @@ msgstr "Phụ thuộc vào số vật phẩm trong giỏ hảng nằm trong vùn
 #: .\wshop\apps\offer\abstract_models.py:689
 msgid "Depends on value of items in basket that are in condition range"
 msgstr ""
-"Phụ thuộc vào giá trị của những vật phẩm trong giỏ hàng mà nằm trong phạm vi "
-"điều kiện"
+"Phụ thuộc vào giá trị của những vật phẩm trong giỏ hàng mà nằm trong phạm vi điều kiện"
 
 #: .\wshop\apps\offer\abstract_models.py:691
-msgid ""
-"Needs to contain a set number of DISTINCT items from the condition range"
-msgstr ""
-"Cần phải có một số thiết lập của các mặt hàng riêng biệt từ phạm vi điều kiện"
+msgid "Needs to contain a set number of DISTINCT items from the condition range"
+msgstr "Cần phải có một số thiết lập của các mặt hàng riêng biệt từ phạm vi điều kiện"
 
 #: .\wshop\apps\offer\abstract_models.py:711
 msgid "Conditions"
@@ -4414,8 +4213,8 @@ msgid ""
 "'%(new_status)s' is not a valid status for order %(number)s (current status: "
 "'%(status)s')"
 msgstr ""
-"'%(new_status)s' không phải là một trạng thái hợp lệ cho đơn hàng %(number)s "
-"(trạng thái hiện tại: '%(status)s')"
+"'%(new_status)s' không phải là một trạng thái hợp lệ cho đơn hàng %(number)s (trạng thái "
+"hiện tại: '%(status)s')"
 
 #: .\wshop\apps\order\abstract_models.py:266
 msgid "In progress"
@@ -4440,8 +4239,7 @@ msgstr "Lưu ý đơn hàng"
 msgid "Order Notes"
 msgstr "Những lưu ý đơn hàng"
 
-#: .\wshop\apps\order\abstract_models.py:450
-#: .\wshop\apps\order\abstract_models.py:924
+#: .\wshop\apps\order\abstract_models.py:450 .\wshop\apps\order\abstract_models.py:924
 #: .\wshop\apps\order\abstract_models.py:992
 msgid "Event Type"
 msgstr "Loại sự kiện"
@@ -4475,18 +4273,15 @@ msgstr "Đây là số hàng mà các đối tác sử dụng trong hệ thống
 msgid "Partner Notes"
 msgstr "Những chú ý đối tác"
 
-#: .\wshop\apps\order\abstract_models.py:506
-#: .\wshop\apps\partner\abstract_models.py:166
+#: .\wshop\apps\order\abstract_models.py:506 .\wshop\apps\partner\abstract_models.py:166
 msgid "Stock record"
 msgstr "Ghi lại tồn kho"
 
-#: .\wshop\apps\order\abstract_models.py:531
-#: .\wshop\apps\order\abstract_models.py:850
+#: .\wshop\apps\order\abstract_models.py:531 .\wshop\apps\order\abstract_models.py:850
 msgid "Price (inc. tax)"
 msgstr "Giá (đã bao gồm thuế)"
 
-#: .\wshop\apps\order\abstract_models.py:534
-#: .\wshop\apps\order\abstract_models.py:852
+#: .\wshop\apps\order\abstract_models.py:534 .\wshop\apps\order\abstract_models.py:852
 #: .\wshop\apps\partner\abstract_models.py:122
 #: .\wshop\templates\wshop\catalogue\detail.html:116
 msgid "Price (excl. tax)"
@@ -4536,9 +4331,7 @@ msgstr "Sản phẩm '%(name)s', Số lượng '%(qty)s'"
 #: .\wshop\apps\order\abstract_models.py:616
 #, python-format
 msgid "'%(new_status)s' is not a valid status (current status: '%(status)s')"
-msgstr ""
-"'%(new_status)s' trạng thái không còn hiệu lực (trạng thái hiện tại: "
-"'%(status)s')"
+msgstr "'%(new_status)s' trạng thái không còn hiệu lực (trạng thái hiện tại: '%(status)s')"
 
 #: .\wshop\apps\order\abstract_models.py:785
 #, python-format
@@ -4582,8 +4375,7 @@ msgstr "Loại sự kiên thanh toán"
 msgid "Payment Event Types"
 msgstr "Các loại sự kiện thanh toán"
 
-#: .\wshop\apps\order\abstract_models.py:913
-#: .\wshop\apps\order\abstract_models.py:1124
+#: .\wshop\apps\order\abstract_models.py:913 .\wshop\apps\order\abstract_models.py:1124
 #: .\wshop\apps\payment\abstract_models.py:41
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:390
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:526
@@ -4591,8 +4383,7 @@ msgstr "Các loại sự kiện thanh toán"
 msgid "Amount"
 msgstr "Số lượng"
 
-#: .\wshop\apps\order\abstract_models.py:917
-#: .\wshop\apps\payment\abstract_models.py:42
+#: .\wshop\apps\order\abstract_models.py:917 .\wshop\apps\payment\abstract_models.py:42
 #: .\wshop\apps\payment\abstract_models.py:98
 #: .\wshop\templates\wshop\dashboard\orders\line_detail.html:137
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:345
@@ -4602,8 +4393,7 @@ msgstr "Số lượng"
 msgid "Reference"
 msgstr "tài liêu tham khảo"
 
-#: .\wshop\apps\order\abstract_models.py:920
-#: .\wshop\apps\order\abstract_models.py:988
+#: .\wshop\apps\order\abstract_models.py:920 .\wshop\apps\order\abstract_models.py:988
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:344
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:391
 msgid "Lines"
@@ -4623,8 +4413,7 @@ msgstr "Những sự kiện thanh toán"
 msgid "Payment event for order %s"
 msgstr "Sự kiện thanh toán cho đơn hàng %s"
 
-#: .\wshop\apps\order\abstract_models.py:957
-#: .\wshop\apps\order\abstract_models.py:1027
+#: .\wshop\apps\order\abstract_models.py:957 .\wshop\apps\order\abstract_models.py:1027
 #: .\wshop\templates\wshop\dashboard\orders\line_detail.html:135
 #: .\wshop\templates\wshop\dashboard\orders\line_detail.html:166
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:343
@@ -4813,8 +4602,7 @@ msgstr "Những thông báo tồn kho"
 msgid "unavailable"
 msgstr "không sẵn có"
 
-#: .\wshop\apps\partner\availability.py:53
-#: .\wshop\apps\partner\availability.py:104
+#: .\wshop\apps\partner\availability.py:53 .\wshop\apps\partner\availability.py:104
 #: .\wshop\apps\partner\availability.py:110
 msgid "Unavailable"
 msgstr "Không sẵn có"
@@ -4860,8 +4648,7 @@ msgstr "%s không phải một tập tin"
 msgid "%s is not readable"
 msgstr "%s là không thể đọc được"
 
-#: .\wshop\apps\payment\abstract_models.py:33
-#: .\wshop\apps\payment\abstract_models.py:114
+#: .\wshop\apps\payment\abstract_models.py:33 .\wshop\apps\payment\abstract_models.py:114
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:491
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:525
 msgid "Source"
@@ -4881,8 +4668,7 @@ msgstr "Giao dịch"
 msgid "Transactions"
 msgstr "Các giao dịch"
 
-#: .\wshop\apps\payment\abstract_models.py:81
-#: .\wshop\apps\payment\abstract_models.py:220
+#: .\wshop\apps\payment\abstract_models.py:81 .\wshop\apps\payment\abstract_models.py:220
 msgid "Source Type"
 msgstr "Loại nguồn"
 
@@ -4953,8 +4739,7 @@ msgstr "Thẻ ngân hàng"
 msgid "Bankcards"
 msgstr "Các loại thẻ ngân hàng"
 
-#: .\wshop\apps\payment\config.py:8
-#: .\wshop\templates\wshop\checkout\checkout.html:84
+#: .\wshop\apps\payment\config.py:8 .\wshop\templates\wshop\checkout\checkout.html:84
 #: .\wshop\templates\wshop\checkout\checkout.html:90
 #: .\wshop\templates\wshop\checkout\thank_you.html:76
 #: .\wshop\templates\wshop\checkout\thank_you.html:79
@@ -5087,11 +4872,10 @@ msgid "Display type"
 msgstr "Hiển thị loại"
 
 #: .\wshop\apps\promotions\models.py:152
-msgid ""
-"This can be used to have different types of HTML blocks (eg different widths)"
+msgid "This can be used to have different types of HTML blocks (eg different widths)"
 msgstr ""
-"Điều này có thể được sử dụng để có các loại khác nhau của các khối HTML (ví "
-"dụ như độ rộng khác nhau)"
+"Điều này có thể được sử dụng để có các loại khác nhau của các khối HTML (ví dụ như độ "
+"rộng khác nhau)"
 
 #: .\wshop\apps\promotions\models.py:159 .\wshop\apps\promotions\models.py:160
 msgid "Raw HTML"
@@ -5107,11 +4891,11 @@ msgstr "Đây là nơi khuyến mãi này liên kết đến"
 
 #: .\wshop\apps\promotions\models.py:205
 msgid ""
-"Choose the Image content blocks that this block will use. (You may need to "
-"create some first)."
+"Choose the Image content blocks that this block will use. (You may need to create some "
+"first)."
 msgstr ""
-"Chọn các khối Nội dung hình ảnh mà khối này sẽ sử dụng. (Bạn có thể cần phải "
-"tạo ra một số đầu tiên)."
+"Chọn các khối Nội dung hình ảnh mà khối này sẽ sử dụng. (Bạn có thể cần phải tạo ra một "
+"số đầu tiên)."
 
 #: .\wshop\apps\promotions\models.py:214
 msgid "Multi Image"
@@ -5166,8 +4950,7 @@ msgstr "Những sản phẩm bán chạy nhất"
 msgid "Recently added products"
 msgstr "Các sản phẩm vừa thêm vào"
 
-#: .\wshop\apps\promotions\models.py:316
-#: .\wshop\apps\shipping\abstract_models.py:195
+#: .\wshop\apps\promotions\models.py:316 .\wshop\apps\shipping\abstract_models.py:195
 #: .\wshop\templates\wshop\checkout\shipping_methods.html:24
 msgid "Method"
 msgstr "Phương thức"
@@ -5259,9 +5042,7 @@ msgstr "Tiêu đề Z tới A"
 
 #: .\wshop\apps\search\search_handlers.py:105
 msgid "Page is not 'last', nor can it be converted to an int."
-msgstr ""
-"Trang không phải là 'cuối cùng', và cũng không thể chuyển đổi sang một dạng "
-"int."
+msgstr "Trang không phải là 'cuối cùng', và cũng không thể chuyển đổi sang một dạng int."
 
 #: .\wshop\apps\shipping\abstract_models.py:36
 #: .\wshop\templates\wshop\customer\order\order_detail.html:145
@@ -5299,8 +5080,8 @@ msgstr "Cân nặng mặc định"
 #: .\wshop\apps\shipping\abstract_models.py:109
 msgid "Default product weight in kg when no weight attribute is defined"
 msgstr ""
-"Cân nặng mặc định của sản phẩm tính bằng kg khi không có thuộc tính trọng "
-"lượng được xác định"
+"Cân nặng mặc định của sản phẩm tính bằng kg khi không có thuộc tính trọng lượng được xác "
+"định"
 
 #: .\wshop\apps\shipping\abstract_models.py:115
 msgid "Weight-based Shipping Method"
@@ -5316,11 +5097,11 @@ msgstr "Giới hạn trên"
 
 #: .\wshop\apps\shipping\abstract_models.py:199
 msgid ""
-"Enter upper limit of this weight band in kg. The lower limit will be "
-"determined by the other weight bands."
+"Enter upper limit of this weight band in kg. The lower limit will be determined by the "
+"other weight bands."
 msgstr ""
-"Nhập giới hạn trên của dải này trọng lượng tính bằng kg. Giới hạn thấp hơn "
-"sẽ được quyết định bởi dải cân khác."
+"Nhập giới hạn trên của dải này trọng lượng tính bằng kg. Giới hạn thấp hơn sẽ được quyết "
+"định bởi dải cân khác."
 
 #: .\wshop\apps\shipping\abstract_models.py:202
 #: .\wshop\templates\wshop\dashboard\shipping\weight_band_delete.html:35
@@ -5377,7 +5158,7 @@ msgstr "Số đơn hàng"
 
 #: .\wshop\apps\voucher\abstract_models.py:37
 msgid "Length of Code"
-msgstr ""
+msgstr "Chiều dài Code"
 
 #: .\wshop\apps\voucher\abstract_models.py:52
 #, fuzzy
@@ -5392,19 +5173,16 @@ msgid "VoucherSets"
 msgstr "Phiếu giảm giá"
 
 #: .\wshop\apps\voucher\abstract_models.py:126
-msgid ""
-"This will be shown in the checkout and basket once the voucher is entered"
+msgid "This will be shown in the checkout and basket once the voucher is entered"
 msgstr ""
-"Điều này sẽ được hiển thị trong thanh toán và giỏ hàng một lần phiếu giảm "
-"giá được nhập"
+"Điều này sẽ được hiển thị trong thanh toán và giỏ hàng một lần phiếu giảm giá được nhập"
 
 #: .\wshop\apps\voucher\abstract_models.py:130
 msgid "Case insensitive / No spaces allowed"
-msgstr "Trường hợp không nhạy cảm / Không gian cho phép."
+msgstr "Trường hợp không nhạy cảm / Không gian cho phép"
 
 #: .\wshop\apps\voucher\abstract_models.py:134 .\wshop\defaults.py:167
-#: .\wshop\defaults.py:171
-#: .\wshop\templates\wshop\dashboard\offers\offer_delete.html:7
+#: .\wshop\defaults.py:171 .\wshop\templates\wshop\dashboard\offers\offer_delete.html:7
 #: .\wshop\templates\wshop\dashboard\offers\offer_delete.html:16
 #: .\wshop\templates\wshop\dashboard\offers\offer_detail.html:17
 #: .\wshop\templates\wshop\dashboard\offers\offer_list.html:8
@@ -5412,10 +5190,8 @@ msgstr "Trường hợp không nhạy cảm / Không gian cho phép."
 #: .\wshop\templates\wshop\dashboard\offers\offer_list.html:23
 #: .\wshop\templates\wshop\dashboard\offers\step_form.html:15
 #: .\wshop\templates\wshop\dashboard\offers\step_form.html:24
-#: .\wshop\templates\wshop\offer\detail.html:17
-#: .\wshop\templates\wshop\offer\list.html:8
-#: .\wshop\templates\wshop\offer\list.html:16
-#: .\wshop\templates\wshop\offer\list.html:21
+#: .\wshop\templates\wshop\offer\detail.html:17 .\wshop\templates\wshop\offer\list.html:8
+#: .\wshop\templates\wshop\offer\list.html:16 .\wshop\templates\wshop\offer\list.html:21
 #: .\wshop\templates\wshop\partials\nav_primary.html:64
 msgid "Offers"
 msgstr "Những ưu đãi"
@@ -5440,8 +5216,8 @@ msgstr "Lần thêm vào giỏ hàng"
 msgid "Times on orders"
 msgstr "Lần trên đơn đặt hàng"
 
-#: .\wshop\apps\voucher\abstract_models.py:168
-#: .\wshop\apps\voucher\abstract_models.py:268 .\wshop\apps\voucher\config.py:8
+#: .\wshop\apps\voucher\abstract_models.py:168 .\wshop\apps\voucher\abstract_models.py:268
+#: .\wshop\apps\voucher\config.py:8
 #: .\wshop\templates\wshop\dashboard\orders\order_detail.html:562
 msgid "Voucher"
 msgstr "Phiếu giảm giá"
@@ -5496,11 +5272,11 @@ msgstr "Riêng tư - Chỉ chủ sử hữu có thể nhìn thấy danh sách mo
 
 #: .\wshop\apps\wishlists\abstract_models.py:41
 msgid ""
-"Shared - Only the owner and people with access to the obfuscated link can "
-"see the wish list"
+"Shared - Only the owner and people with access to the obfuscated link can see the wish "
+"list"
 msgstr ""
-"Chia sẻ - Chỉ người chủ sở hữu và những người có quyền truy cập vào các liên "
-"kết phức tạp có thể nhìn thấy danh sách mong muốn"
+"Chia sẻ - Chỉ người chủ sở hữu và những người có quyền truy cập vào các liên kết phức "
+"tạp có thể nhìn thấy danh sách mong muốn"
 
 #: .\wshop\apps\wishlists\abstract_models.py:43
 msgid "Public - Everybody can see the wish list"
@@ -5548,13 +5324,11 @@ msgstr "Thông báo hết hàng"
 msgid "Fulfilment"
 msgstr "Cam kết thực hiện"
 
-#: .\wshop\defaults.py:135
-#: .\wshop\templates\wshop\dashboard\orders\statistics.html:20
+#: .\wshop\defaults.py:135 .\wshop\templates\wshop\dashboard\orders\statistics.html:20
 msgid "Statistics"
 msgstr "Thống kê"
 
-#: .\wshop\defaults.py:139
-#: .\wshop\templates\wshop\dashboard\partners\partner_delete.html:7
+#: .\wshop\defaults.py:139 .\wshop\templates\wshop\dashboard\partners\partner_delete.html:7
 #: .\wshop\templates\wshop\dashboard\partners\partner_delete.html:16
 #: .\wshop\templates\wshop\dashboard\partners\partner_form.html:8
 #: .\wshop\templates\wshop\dashboard\partners\partner_form.html:17
@@ -5595,8 +5369,7 @@ msgstr "Chi tiết phiếu mua"
 msgid "Content"
 msgstr "Nội dung"
 
-#: .\wshop\defaults.py:190
-#: .\wshop\templates\wshop\dashboard\promotions\delete.html:17
+#: .\wshop\defaults.py:190 .\wshop\templates\wshop\dashboard\promotions\delete.html:17
 #: .\wshop\templates\wshop\dashboard\promotions\delete_pagepromotion.html:12
 #: .\wshop\templates\wshop\dashboard\promotions\form.html:12
 #: .\wshop\templates\wshop\dashboard\promotions\page_detail.html:18
@@ -5618,8 +5391,7 @@ msgstr "Khóa nội dung của trang"
 msgid "Email templates"
 msgstr "Mẫu email"
 
-#: .\wshop\defaults.py:206
-#: .\wshop\templates\wshop\catalogue\reviews\review_detail.html:5
+#: .\wshop\defaults.py:206 .\wshop\templates\wshop\catalogue\reviews\review_detail.html:5
 #: .\wshop\templates\wshop\catalogue\reviews\review_detail.html:23
 #: .\wshop\templates\wshop\dashboard\reviews\review_delete.html:8
 #: .\wshop\templates\wshop\dashboard\reviews\review_delete.html:17
@@ -5632,8 +5404,7 @@ msgstr "Mẫu email"
 msgid "Reviews"
 msgstr "Đánh giá"
 
-#: .\wshop\defaults.py:212
-#: .\wshop\templates\wshop\dashboard\reports\index.html:6
+#: .\wshop\defaults.py:212 .\wshop\templates\wshop\dashboard\reports\index.html:6
 msgid "Reports"
 msgstr "Báo cáo"
 
@@ -5669,8 +5440,8 @@ msgstr "Đây không phải là một định dạng điện thoại địa phư
 #: .\wshop\forms\mixins.py:100
 msgid "This is not a valid local or international phone format."
 msgstr ""
-"Đây không phải là một định dạng điện thoại địa phương hợp lệ hoặc một định "
-"dạng điện thoại quốc tể hợp lệ."
+"Đây không phải là một định dạng điện thoại địa phương hợp lệ hoặc một định dạng điện "
+"thoại quốc tể hợp lệ."
 
 #: .\wshop\management\commands\wshop_send_alerts.py:16
 msgid "Check for products that are back in stock and send out alerts"
@@ -5702,19 +5473,16 @@ msgstr "Máy chủ bị lỗi"
 
 #: .\wshop\templates\wshop\500.html:13
 msgid ""
-"We're sorry but something went terribly wrong and we've been unable to "
-"generate the page you requested."
+"We're sorry but something went terribly wrong and we've been unable to generate the page "
+"you requested."
 msgstr ""
-"Chúng tôi xin lỗi nhưng có gì đó sai sót và chúng tôi đã không thể tạo ra "
-"các trang mà bạn yêu cầu."
+"Chúng tôi xin lỗi nhưng có gì đó sai sót và chúng tôi đã không thể tạo ra các trang mà "
+"bạn yêu cầu."
 
 #: .\wshop\templates\wshop\500.html:14
 msgid ""
-"This incident has been logged and will be addressed by an engineer as soon "
-"as possible."
-msgstr ""
-"Sự cố này đã được ghi lại và sẽ được giải quyết bởi một kỹ sư càng sớm càng "
-"tốt."
+"This incident has been logged and will be addressed by an engineer as soon as possible."
+msgstr "Sự cố này đã được ghi lại và sẽ được giải quyết bởi một kỹ sư càng sớm càng tốt."
 
 #: .\wshop\templates\wshop\basket\basket.html:12
 #: .\wshop\templates\wshop\catalogue\browse.html:17
@@ -5732,8 +5500,7 @@ msgstr ""
 #: .\wshop\templates\wshop\customer\wishlists\wishlists_form.html:7
 #: .\wshop\templates\wshop\dashboard\catalogue\category_list.html:31
 #: .\wshop\templates\wshop\flatpages\default.html:20
-#: .\wshop\templates\wshop\offer\detail.html:14
-#: .\wshop\templates\wshop\offer\list.html:14
+#: .\wshop\templates\wshop\offer\detail.html:14 .\wshop\templates\wshop\offer\list.html:14
 #: .\wshop\templates\wshop\offer\range.html:15
 #: .\wshop\templates\wshop\registration\password_reset_complete.html:9
 #: .\wshop\templates\wshop\registration\password_reset_confirm.html:9
@@ -5843,8 +5610,8 @@ msgstr "Bạn có thể bỏ lỡ những ưu đãi"
 #, python-format
 msgid ""
 "\n"
-"                <div class=\"warning\">%(message)s to qualify for the <a "
-"href=\"%(url)s\">%(offer_name)s</a> special offer</div>\n"
+"                <div class=\"warning\">%(message)s to qualify for the <a href=\"%(url)s"
+"\">%(offer_name)s</a> special offer</div>\n"
 "            "
 msgstr ""
 "\n"
@@ -6087,9 +5854,7 @@ msgstr "Tổng số giỏ hàng"
 
 #: .\wshop\templates\wshop\basket\partials\basket_totals.html:97
 msgid "Alternative shipping methods can be chosen during checkout"
-msgstr ""
-"Phương pháp vận chuyển thay thế có thể được lựa chọn trong quá trình thanh "
-"toán"
+msgstr "Phương pháp vận chuyển thay thế có thể được lựa chọn trong quá trình thanh toán"
 
 #: .\wshop\templates\wshop\basket\partials\basket_totals.html:123
 msgid "Shipping total (before discounts)"
@@ -6129,18 +5894,18 @@ msgstr "Tinh chỉnh theo"
 #, python-format
 msgid ""
 "\n"
-"                    <strong>%(num_results)s</strong> result - showing "
-"<strong>%(start)s</strong> to <strong>%(end)s</strong>.\n"
+"                    <strong>%(num_results)s</strong> result - showing <strong>%(start)s</"
+"strong> to <strong>%(end)s</strong>.\n"
 "                "
 msgid_plural ""
 "\n"
-"                    <strong>%(num_results)s</strong> results - showing "
-"<strong>%(start)s</strong> to <strong>%(end)s</strong>.\n"
+"                    <strong>%(num_results)s</strong> results - showing <strong>"
+"%(start)s</strong> to <strong>%(end)s</strong>.\n"
 "                "
 msgstr[0] ""
 "\n"
-"<strong>%(num_results)s</strong> kết quả - hiển thị  <strong>%(start)s</"
-"strong> tới <strong>%(end)s</strong>."
+"<strong>%(num_results)s</strong> kết quả - hiển thị  <strong>%(start)s</strong> tới "
+"<strong>%(end)s</strong>."
 
 #: .\wshop\templates\wshop\catalogue\browse.html:76
 #, python-format
@@ -6163,8 +5928,7 @@ msgstr "<strong>0</strong> kết quả."
 #: .\wshop\templates\wshop\catalogue\browse.html:106
 #: .\wshop\templates\wshop\dashboard\catalogue\product_list.html:86
 #: .\wshop\templates\wshop\dashboard\ranges\range_product_list.html:127
-#: .\wshop\templates\wshop\offer\detail.html:61
-#: .\wshop\templates\wshop\offer\range.html:39
+#: .\wshop\templates\wshop\offer\detail.html:61 .\wshop\templates\wshop\offer\range.html:39
 msgid "No products found."
 msgstr "Không tìm thấy sản phẩm nào."
 
@@ -6217,8 +5981,8 @@ msgstr "Đánh giá của khách hàng"
 #, python-format
 msgid ""
 "This product does not have any reviews yet -\n"
-"                            <a href=\"%(add_review_url)s#addreview\">be the "
-"first to write one</a>.\n"
+"                            <a href=\"%(add_review_url)s#addreview\">be the first to "
+"write one</a>.\n"
 "                        "
 msgstr ""
 "Sản phẩm này chưa có đánh giá nào - \n"
@@ -6295,8 +6059,8 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"<span class=\"pull-left\"> Sản phẩm <a href=\"%(url)s\">'%(name)s'</a> trong "
-"danh sách yêu thích. </span>"
+"<span class=\"pull-left\"> Sản phẩm <a href=\"%(url)s\">'%(name)s'</a> trong danh sách "
+"yêu thích. </span>"
 
 #: .\wshop\templates\wshop\catalogue\partials\add_to_wishlist.html:41
 #: .\wshop\templates\wshop\customer\wishlists\wishlists_delete_product.html:32
@@ -6324,8 +6088,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                    Reviewed by <strong>%(name)s</strong> on "
-"%(review_date)s\n"
+"                    Reviewed by <strong>%(name)s</strong> on %(review_date)s\n"
 "                "
 msgstr ""
 "\n"
@@ -6357,18 +6120,17 @@ msgstr "Không"
 #, python-format
 msgid ""
 "\n"
-"            <strong>%(num_up_votes)s</strong> of %(num_votes)s customer "
-"found this useful\n"
+"            <strong>%(num_up_votes)s</strong> of %(num_votes)s customer found this "
+"useful\n"
 "            "
 msgid_plural ""
 "\n"
-"            <strong>%(num_up_votes)s</strong> of %(num_votes)s customers "
-"found this useful\n"
+"            <strong>%(num_up_votes)s</strong> of %(num_votes)s customers found this "
+"useful\n"
 "            "
 msgstr[0] ""
 "\n"
-"<strong>%(num_up_votes)s</strong> của %(num_votes)s khách hàng tìm kiếm hữu "
-"ích"
+"<strong>%(num_up_votes)s</strong> của %(num_votes)s khách hàng tìm kiếm hữu ích"
 
 #: .\wshop\templates\wshop\catalogue\partials\review.html:58
 msgid "This review has no votes."
@@ -6539,11 +6301,11 @@ msgstr "Nhập chi tiết thanh toán"
 
 #: .\wshop\templates\wshop\checkout\payment_details.html:21
 msgid ""
-"This page needs implementing within your project.  You may want to use one "
-"of Wshop's payment gateway libraries:"
+"This page needs implementing within your project.  You may want to use one of Wshop's "
+"payment gateway libraries:"
 msgstr ""
-"Trang này cần thực hiện trong dự án của bạn. Bạn có thể muốn sử dụng một "
-"trong các thư viện cổng thanh toán của Wshop:"
+"Trang này cần thực hiện trong dự án của bạn. Bạn có thể muốn sử dụng một trong các thư "
+"viện cổng thanh toán của Wshop:"
 
 #: .\wshop\templates\wshop\checkout\preview.html:5
 msgid "Order preview"
@@ -6628,10 +6390,10 @@ msgstr "Quay lại giỏ hàng"
 #, python-format
 msgid ""
 "\n"
-"                                This includes a discount of <strong>"
-"%(amount)s</strong> as\n"
-"                                your basket qualifies for the <strong>"
-"%(name)s</strong> offer.\n"
+"                                This includes a discount of <strong>%(amount)s</strong> "
+"as\n"
+"                                your basket qualifies for the <strong>%(name)s</strong> "
+"offer.\n"
 "                            "
 msgstr ""
 "\n"
@@ -6657,14 +6419,13 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"        Your order has been placed and a confirmation email has been sent - "
-"your order number is\n"
+"        Your order has been placed and a confirmation email has been sent - your order "
+"number is\n"
 "        <strong>%(number)s</strong>.\n"
 "        "
 msgstr ""
 "\n"
-"Đơn hàng của bạn đã được đặt và một email xác nhận đã được gửi - số thứ tự "
-"của bạn là\n"
+"Đơn hàng của bạn đã được đặt và một email xác nhận đã được gửi - số thứ tự của bạn là\n"
 "<strong>%(number)s</strong>."
 
 #: .\wshop\templates\wshop\checkout\thank_you.html:29
@@ -6672,8 +6433,8 @@ msgid ""
 "Please make a note of this reference or print this page and quote it in any "
 "communication with us regarding your order."
 msgstr ""
-"Vui lòng ghi chú lại tài liệu này hoặc in trang này và trích dẫn chúng trong "
-"bất cứ cuộc trao đổi với chúng tôi liên quan dến đơn hàng của bạn."
+"Vui lòng ghi chú lại tài liệu này hoặc in trang này và trích dẫn chúng trong bất cứ cuộc "
+"trao đổi với chúng tôi liên quan dến đơn hàng của bạn."
 
 #: .\wshop\templates\wshop\checkout\thank_you.html:62
 msgid "No shipping address required."
@@ -6683,8 +6444,8 @@ msgstr "Không có địa chỉ giao hàng yêu cầu."
 #, python-format
 msgid ""
 "\n"
-"                                Allocation of %(amount)s from type %(type)s "
-"(reference: %(reference)s)\n"
+"                                Allocation of %(amount)s from type %(type)s (reference: "
+"%(reference)s)\n"
 "                            "
 msgstr ""
 "\n"
@@ -6965,25 +6726,25 @@ msgstr "Nhóm %(name)s"
 #, fuzzy, python-format
 #| msgid ""
 #| "\n"
-#| "    You're receiving this email because your email address has been "
-#| "changed to <strong>%(email)s</strong>.\n"
+#| "    You're receiving this email because your email address has been changed to "
+#| "<strong>%(email)s</strong>.\n"
 #| "    "
 msgid ""
-"You're receiving this email because your email address has been changed to "
-"<strong>%(email)s</strong>."
+"You're receiving this email because your email address has been changed to <strong>"
+"%(email)s</strong>."
 msgstr ""
 "\n"
-"Bạn nhận được email này vì địa chỉ email của bạn đã được thay đổi thành "
-"<strong>%(email)s</strong>."
+"Bạn nhận được email này vì địa chỉ email của bạn đã được thay đổi thành <strong>"
+"%(email)s</strong>."
 
 #: .\wshop\templates\wshop\customer\emails\commtype_email_changed_body.html:13
 #: .\wshop\templates\wshop\customer\emails\commtype_email_changed_body.txt:6
 msgid ""
-"If it wasn't you who changed it, please reset your password immediately and "
-"correct your email address:"
+"If it wasn't you who changed it, please reset your password immediately and correct your "
+"email address:"
 msgstr ""
-"Nếu bạn không phải là người thay đổi nó, vui lòng thiết lập lại mật khẩu của "
-"bạn ngay lập tức và đúng địa chỉ email của bạn:"
+"Nếu bạn không phải là người thay đổi nó, vui lòng thiết lập lại mật khẩu của bạn ngay "
+"lập tức và đúng địa chỉ email của bạn:"
 
 #: .\wshop\templates\wshop\customer\emails\commtype_email_changed_body.html:25
 #: .\wshop\templates\wshop\customer\emails\commtype_email_changed_body.txt:9
@@ -6993,11 +6754,8 @@ msgstr "nếu bạn là người thay đổi địa chỉ email, bạn có thể
 #: .\wshop\templates\wshop\customer\emails\commtype_email_changed_body.txt:4
 #, python-format
 msgid ""
-"You're receiving this email because your email address has been changed to "
-"%(email)s."
-msgstr ""
-"Bạn nhận được email này vì địa chỉ email của bạn đã được thay đổi thành "
-"%(email)s."
+"You're receiving this email because your email address has been changed to %(email)s."
+msgstr "Bạn nhận được email này vì địa chỉ email của bạn đã được thay đổi thành %(email)s."
 
 #: .\wshop\templates\wshop\customer\emails\commtype_email_changed_subject.txt:1
 #, python-format
@@ -7013,15 +6771,13 @@ msgstr "Xin chào,"
 #: .\wshop\templates\wshop\customer\emails\commtype_order_placed_body.html:8
 #, fuzzy, python-format
 #| msgid ""
-#| "We are pleased to confirm your order %(order_number)s has been received "
-#| "and\n"
+#| "We are pleased to confirm your order %(order_number)s has been received and\n"
 #| "will be processed shortly."
 msgid ""
 "We are pleased to confirm your order %(order_number)s has been received and\n"
 "        will be processed shortly."
 msgstr ""
-"Chúng tôi xin được xác nhận đơn hàng của bạn  %(order_number)s đã được nhận "
-"và\n"
+"Chúng tôi xin được xác nhận đơn hàng của bạn  %(order_number)s đã được nhận và\n"
 "sẽ được xử lý ngay."
 
 #: .\wshop\templates\wshop\customer\emails\commtype_order_placed_body.html:17
@@ -7053,11 +6809,11 @@ msgstr "Địa chỉ giao hàng:"
 #: .\wshop\templates\wshop\customer\emails\commtype_order_placed_body.html:60
 #, python-format
 msgid ""
-"You can view the status of this order by clicking <a href=\"%(status_url)s\" "
-"title=\"order status\">here</a>"
+"You can view the status of this order by clicking <a href=\"%(status_url)s\" title="
+"\"order status\">here</a>"
 msgstr ""
-"Bạn có thể xem trạng thái của đơn hàng này bằng cách nhấn vào <a href="
-"\"%(status_url)s\" title=\"order status\">đây</a>"
+"Bạn có thể xem trạng thái của đơn hàng này bằng cách nhấn vào <a href=\"%(status_url)s\" "
+"title=\"order status\">đây</a>"
 
 #: .\wshop\templates\wshop\customer\emails\commtype_order_placed_body.txt:1
 #, python-format
@@ -7069,8 +6825,7 @@ msgid ""
 msgstr ""
 "Xin chào, \n"
 "\n"
-"Chúng tôi xin được xác nhận đơn hàng của bạn %(order_number)s đã được nhận "
-"và\n"
+"Chúng tôi xin được xác nhận đơn hàng của bạn %(order_number)s đã được nhận và\n"
 "sẽ xử lý ngay."
 
 #: .\wshop\templates\wshop\customer\emails\commtype_order_placed_body.txt:8
@@ -7103,23 +6858,17 @@ msgstr "Xác nhận của đơn hàng %(number)s"
 #, fuzzy, python-format
 #| msgid ""
 #| "\n"
-#| "You're receiving this email because your password has been changed at "
-#| "%(name)s.\n"
-msgid ""
-"You're receiving this e-mail because your password has been changed at "
-"%(name)s."
+#| "You're receiving this email because your password has been changed at %(name)s.\n"
+msgid "You're receiving this e-mail because your password has been changed at %(name)s."
 msgstr ""
 "\n"
-"Bạn nhận được email này bởi vì mật khẩu của bạn đã được thay đổi tại  "
-"%(name)s.\n"
+"Bạn nhận được email này bởi vì mật khẩu của bạn đã được thay đổi tại  %(name)s.\n"
 
 #: .\wshop\templates\wshop\customer\emails\commtype_password_changed_body.html:13
 #: .\wshop\templates\wshop\customer\emails\commtype_password_changed_body.txt:8
-msgid ""
-"If it wasn't you who changed it, please reset your password immediately:"
+msgid "If it wasn't you who changed it, please reset your password immediately:"
 msgstr ""
-"Nếu không phải là bạn thay đổi nó, vui lòng thiết lập lại mật khẩu của bạn "
-"ngay lập tức:"
+"Nếu không phải là bạn thay đổi nó, vui lòng thiết lập lại mật khẩu của bạn ngay lập tức:"
 
 #: .\wshop\templates\wshop\customer\emails\commtype_password_changed_body.html:25
 #: .\wshop\templates\wshop\customer\emails\commtype_password_changed_body.txt:11
@@ -7130,12 +6879,10 @@ msgstr "Nếu không thì bạn có thể bỏ qua email này."
 #, python-format
 msgid ""
 "\n"
-"You're receiving this email because your password has been changed at "
-"%(name)s.\n"
+"You're receiving this email because your password has been changed at %(name)s.\n"
 msgstr ""
 "\n"
-"Bạn nhận được email này bởi vì mật khẩu của bạn đã được thay đổi tại  "
-"%(name)s.\n"
+"Bạn nhận được email này bởi vì mật khẩu của bạn đã được thay đổi tại  %(name)s.\n"
 
 #: .\wshop\templates\wshop\customer\emails\commtype_password_changed_subject.txt:1
 #, python-format
@@ -7146,11 +6893,11 @@ msgstr "Mật khẩu của bạn đã được thay đổi tại %(site_name)s."
 #: .\wshop\templates\wshop\customer\emails\commtype_password_reset_body.txt:5
 #, python-format
 msgid ""
-"You're receiving this e-mail because you requested a password reset for your "
-"user account at %(name)s."
+"You're receiving this e-mail because you requested a password reset for your user "
+"account at %(name)s."
 msgstr ""
-"Bạn nhận được e-mail này bởi vì bạn yêu cầu một thiết lập mật khẩu cho  tài "
-"khoản của bạn tại %(name)s."
+"Bạn nhận được e-mail này bởi vì bạn yêu cầu một thiết lập mật khẩu cho  tài khoản của "
+"bạn tại %(name)s."
 
 #: .\wshop\templates\wshop\customer\emails\commtype_password_reset_body.html:13
 #: .\wshop\templates\wshop\customer\emails\commtype_password_reset_body.txt:7
@@ -7172,57 +6919,51 @@ msgstr "Kính gửi %(name)s,"
 #, fuzzy, python-format
 #| msgid ""
 #| "\n"
-#| "We are happy to inform you that our product '%(product|safe)s' is back in "
-#| "stock:\n"
+#| "We are happy to inform you that our product '%(product|safe)s' is back in stock:\n"
 #| "http://%(site)s%(path)s\n"
 msgid ""
 "\n"
-"            We are happy to inform you that our product '%(title)s' is back "
-"in stock:\n"
+"            We are happy to inform you that our product '%(title)s' is back in stock:\n"
 "            http://%(site)s%(path)s\n"
 "        "
 msgstr ""
 "\n"
-"Chúng tôi rất vui khi thông báo rằng sản phẩm '%(product|safe)s' đã có "
-"hàng:\n"
+"Chúng tôi rất vui khi thông báo rằng sản phẩm '%(product|safe)s' đã có hàng:\n"
 "http://%(site)s%(path)s\n"
 
 #: .\wshop\templates\wshop\customer\emails\commtype_product_alert_body.html:22
 #, fuzzy
 #| msgid ""
 #| "\n"
-#| "Beware that the amount of items in stock is limited. Be quick or someone "
-#| "might get there first.\n"
+#| "Beware that the amount of items in stock is limited. Be quick or someone might get "
+#| "there first.\n"
 msgid ""
 "\n"
-"                Beware that the amount of items in stock is limited. Be "
-"quick or someone might get there first.\n"
+"                Beware that the amount of items in stock is limited. Be quick or someone "
+"might get there first.\n"
 "            "
 msgstr ""
 "\n"
-"Ghi nhớ rằng việc số tiền ghi trong tồn kho bị hạn chế. Hãy nhanh chóng hoặc "
-"một người nào đó có thể đạt được điều đó đầu tiên.\n"
+"Ghi nhớ rằng việc số tiền ghi trong tồn kho bị hạn chế. Hãy nhanh chóng hoặc một người "
+"nào đó có thể đạt được điều đó đầu tiên.\n"
 
 #: .\wshop\templates\wshop\customer\emails\commtype_product_alert_body.html:29
 #, fuzzy
 #| msgid ""
 #| "\n"
-#| "With this email we have disabled your alert automatically and you will "
-#| "not\n"
+#| "With this email we have disabled your alert automatically and you will not\n"
 #| "receive any further email regarding this product.\n"
 #| "\n"
 #| "Thanks for your interest,\n"
 #| "The %(site_name)s Team\n"
 msgid ""
 "\n"
-"            With this email we have disabled your alert automatically and "
-"you will not\n"
+"            With this email we have disabled your alert automatically and you will not\n"
 "            receive any further email regarding this product.\n"
 "        "
 msgstr ""
 "\n"
-"Với email này chúng tôi vô hiệu hóa tự động thông báo của bạn và bạn sẽ "
-"không\n"
+"Với email này chúng tôi vô hiệu hóa tự động thông báo của bạn và bạn sẽ không\n"
 "nhận bất cứ email nào liên quan tới sản phẩm này.\n"
 "\n"
 "Cảm ơn vì sự quan tâm của bạn,\n"
@@ -7232,8 +6973,7 @@ msgstr ""
 #, fuzzy, python-format
 #| msgid ""
 #| "\n"
-#| "We are happy to inform you that our product '%(product|safe)s' is back in "
-#| "stock:\n"
+#| "We are happy to inform you that our product '%(product|safe)s' is back in stock:\n"
 #| "http://%(site)s%(path)s\n"
 msgid ""
 "\n"
@@ -7241,19 +6981,18 @@ msgid ""
 "http://%(site)s%(path)s\n"
 msgstr ""
 "\n"
-"Chúng tôi rất vui khi thông báo rằng sản phẩm '%(product|safe)s' đã có "
-"hàng:\n"
+"Chúng tôi rất vui khi thông báo rằng sản phẩm '%(product|safe)s' đã có hàng:\n"
 "http://%(site)s%(path)s\n"
 
 #: .\wshop\templates\wshop\customer\emails\commtype_product_alert_body.txt:5
 msgid ""
 "\n"
-"Beware that the amount of items in stock is limited. Be quick or someone "
-"might get there first.\n"
+"Beware that the amount of items in stock is limited. Be quick or someone might get there "
+"first.\n"
 msgstr ""
 "\n"
-"Ghi nhớ rằng việc số tiền ghi trong tồn kho bị hạn chế. Hãy nhanh chóng hoặc "
-"một người nào đó có thể đạt được điều đó đầu tiên.\n"
+"Ghi nhớ rằng việc số tiền ghi trong tồn kho bị hạn chế. Hãy nhanh chóng hoặc một người "
+"nào đó có thể đạt được điều đó đầu tiên.\n"
 
 #: .\wshop\templates\wshop\customer\emails\commtype_product_alert_body.txt:7
 #, python-format
@@ -7266,8 +7005,7 @@ msgid ""
 "The %(site_name)s Team\n"
 msgstr ""
 "\n"
-"Với email này chúng tôi vô hiệu hóa tự động thông báo của bạn và bạn sẽ "
-"không\n"
+"Với email này chúng tôi vô hiệu hóa tự động thông báo của bạn và bạn sẽ không\n"
 "nhận bất cứ email nào liên quan tới sản phẩm này.\n"
 "\n"
 "Cảm ơn vì sự quan tâm của bạn,\n"
@@ -7304,13 +7042,11 @@ msgid ""
 msgstr ""
 "Xin chào\n"
 "\n"
-"Một ai đó (hi vọng là bạn) đã yêu cầu một email thông báo khi "
-"'%(product|safe)s' có hàng. Vui lòng nhấn vào đường đẫn dưới dây để xác "
-"nhận:\n"
+"Một ai đó (hi vọng là bạn) đã yêu cầu một email thông báo khi '%(product|safe)s' có "
+"hàng. Vui lòng nhấn vào đường đẫn dưới dây để xác nhận:\n"
 "http://%(domain)s%(confirm_path)s\n"
 "\n"
-"Bạn có thể hủy thông báo này bất cứ lúc nào bằng cách nhấn vào đường dẫn "
-"dưới đây:\n"
+"Bạn có thể hủy thông báo này bất cứ lúc nào bằng cách nhấn vào đường dẫn dưới đây:\n"
 "http://%(domain)s%(cancel_path)s\n"
 "\n"
 "Cám ơn bạn\n"
@@ -7530,8 +7266,8 @@ msgstr "Cảnh báo"
 #: .\wshop\templates\wshop\customer\profile\profile_delete.html:11
 msgid ""
 "\n"
-"                This will delete all information about you from the site.  "
-"Deleting your profile cannot be\n"
+"                This will delete all information about you from the site.  Deleting your "
+"profile cannot be\n"
 "                undone.\n"
 "            "
 msgstr ""
@@ -7570,13 +7306,12 @@ msgstr "Xóa sản phẩm"
 #, python-format
 msgid ""
 "\n"
-"                Are you sure you want to delete %(product_name)s from wish "
-"list %(wishlist_name)s?\n"
+"                Are you sure you want to delete %(product_name)s from wish list "
+"%(wishlist_name)s?\n"
 "            "
 msgstr ""
 "\n"
-"Bạn có chăcs bạn muốn xóa %(product_name)s ra khỏi danh sách yêu thích "
-"%(wishlist_name)s?"
+"Bạn có chăcs bạn muốn xóa %(product_name)s ra khỏi danh sách yêu thích %(wishlist_name)s?"
 
 #: .\wshop\templates\wshop\customer\wishlists\wishlists_detail.html:33
 #: .\wshop\templates\wshop\customer\wishlists\wishlists_list.html:11
@@ -7591,8 +7326,8 @@ msgstr "Xem sản phẩm"
 #, python-format
 msgid ""
 "\n"
-"                                                            Move to "
-"'%(name)s' wish list\n"
+"                                                            Move to '%(name)s' wish "
+"list\n"
 "                                                        "
 msgstr ""
 "\n"
@@ -7618,13 +7353,13 @@ msgstr "Danh sách yêu thích mới của bạn nên gọi là gì?"
 #, python-format
 msgid ""
 "\n"
-"                    After your wishlist is created, <strong>%(title)s</"
-"strong> will be added.\n"
+"                    After your wishlist is created, <strong>%(title)s</strong> will be "
+"added.\n"
 "                "
 msgstr ""
 "\n"
-"Sau khi danh sách yêu thích của bạn được tạo, <strong>%(title)s</strong> sẽ "
-"được thêm vào."
+"Sau khi danh sách yêu thích của bạn được tạo, <strong>%(title)s</strong> sẽ được thêm "
+"vào."
 
 #: .\wshop\templates\wshop\customer\wishlists\wishlists_list.html:10
 msgid "Number of products"
@@ -7662,15 +7397,11 @@ msgstr "Thuộc tính nhóm sản phẩm "
 
 #: .\wshop\templates\wshop\dashboard\catalogue\attribute_option_group_delete.html:42
 #, fuzzy
-#| msgid ""
-#| "Please make sure all products are assigned to another type before "
-#| "deletion."
+#| msgid "Please make sure all products are assigned to another type before deletion."
 msgid ""
-"Please make sure all Product Attributes are assigned to another Attribute "
-"Option Group before deletion."
-msgstr ""
-"Vui lòng chắc chắn rằng tất cả sản phẩm đã gán cho một loại khác trước khi "
-"xóa bỏ."
+"Please make sure all Product Attributes are assigned to another Attribute Option Group "
+"before deletion."
+msgstr "Vui lòng chắc chắn rằng tất cả sản phẩm đã gán cho một loại khác trước khi xóa bỏ."
 
 #: .\wshop\templates\wshop\dashboard\catalogue\attribute_option_group_delete.html:45
 #, fuzzy
@@ -7741,8 +7472,7 @@ msgstr "Xóa danh mục"
 #, python-format
 msgid ""
 "\n"
-"            <p>Delete category <strong>%(name)s</strong> - are you sure?</"
-"p>\n"
+"            <p>Delete category <strong>%(name)s</strong> - are you sure?</p>\n"
 "        "
 msgstr ""
 "\n"
@@ -7857,11 +7587,8 @@ msgid "Delete product type?"
 msgstr "Xóa loại sản phẩm?"
 
 #: .\wshop\templates\wshop\dashboard\catalogue\product_class_delete.html:24
-msgid ""
-"Please make sure all products are assigned to another type before deletion."
-msgstr ""
-"Vui lòng chắc chắn rằng tất cả sản phẩm đã gán cho một loại khác trước khi "
-"xóa bỏ."
+msgid "Please make sure all products are assigned to another type before deletion."
+msgstr "Vui lòng chắc chắn rằng tất cả sản phẩm đã gán cho một loại khác trước khi xóa bỏ."
 
 #: .\wshop\templates\wshop\dashboard\catalogue\product_class_delete.html:27
 msgid "Delete product type"
@@ -7909,8 +7636,7 @@ msgstr "Không có loại sản phẩm nào."
 #, python-format
 msgid ""
 "\n"
-"                    Delete product variant <strong>%(title)s</strong> - are "
-"you sure?\n"
+"                    Delete product variant <strong>%(title)s</strong> - are you sure?\n"
 "                "
 msgstr ""
 "\n"
@@ -7920,8 +7646,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                    Delete product <strong>%(title)s</strong> - are you "
-"sure?\n"
+"                    Delete product <strong>%(title)s</strong> - are you sure?\n"
 "                "
 msgstr ""
 "\n"
@@ -8246,8 +7971,8 @@ msgstr "Đăng xuất"
 
 #: .\wshop\templates\wshop\dashboard\login.html:28
 msgid ""
-"Please enter a correct username and password. Note that both fields may be "
-"case-sensitive."
+"Please enter a correct username and password. Note that both fields may be case-"
+"sensitive."
 msgstr ""
 
 #: .\wshop\templates\wshop\dashboard\login.html:41
@@ -8265,13 +7990,13 @@ msgstr "Xây dựng một khuyến khích mới"
 #, python-format
 msgid ""
 "\n"
-"        Ranges can be created and edited from within the <a href="
-"\"%(range_list_url)s\">range dashboard</a>.\n"
+"        Ranges can be created and edited from within the <a href=\"%(range_list_url)s"
+"\">range dashboard</a>.\n"
 "        "
 msgstr ""
 "\n"
-"Phạm vi có thể được tạo và sửa từ trong <a href=\"%(range_list_url)s\"> phạm "
-"vi bảng điều khiển."
+"Phạm vi có thể được tạo và sửa từ trong <a href=\"%(range_list_url)s\"> phạm vi bảng "
+"điều khiển."
 
 #: .\wshop\templates\wshop\dashboard\offers\benefit_form.html:28
 #: .\wshop\templates\wshop\dashboard\offers\condition_form.html:31
@@ -8628,8 +8353,8 @@ msgstr "Đơn hàng này không thể có tình trạng thay đổi của nó."
 #, python-format
 msgid ""
 "\n"
-"                                                                %(title)s "
-"(quantity %(event_qty)s/%(total_qty)s)\n"
+"                                                                %(title)s (quantity "
+"%(event_qty)s/%(total_qty)s)\n"
 "                                                            "
 msgstr ""
 "\n"
@@ -8943,18 +8668,16 @@ msgstr "Cập nhật chi tiết"
 
 #: .\wshop\templates\wshop\dashboard\partners\partner_user_select.html:37
 msgid ""
-"A partial email address can be entered (eg '@example.com') to match multiple "
-"addresses."
+"A partial email address can be entered (eg '@example.com') to match multiple addresses."
 msgstr ""
-"Một phần địa chỉ email có thể nhập vào (ví dụ: '@example.com') để phù hợp "
-"với nhiều địa chỉ."
+"Một phần địa chỉ email có thể nhập vào (ví dụ: '@example.com') để phù hợp với nhiều địa "
+"chỉ."
 
 #: .\wshop\templates\wshop\dashboard\partners\partner_user_select.html:65
 #, python-format
 msgid ""
 "\n"
-"                                                User is already linked to "
-"%(name)s.\n"
+"                                                User is already linked to %(name)s.\n"
 "                                            "
 msgstr ""
 "\n"
@@ -8986,11 +8709,9 @@ msgstr "Xóa khối nội dung"
 #: .\wshop\templates\wshop\dashboard\promotions\delete.html:34
 #, python-format
 msgid ""
-"Delete %(object.type)s content block <strong>%(object.name)s</strong> - are "
-"you sure?"
+"Delete %(object.type)s content block <strong>%(object.name)s</strong> - are you sure?"
 msgstr ""
-"Xóa %(object.type)s khối nội dung <strong>%(object.name)s</strong> - bạn có "
-"chắc không?"
+"Xóa %(object.type)s khối nội dung <strong>%(object.name)s</strong> - bạn có chắc không?"
 
 #: .\wshop\templates\wshop\dashboard\promotions\delete_pagepromotion.html:14
 #: .\wshop\templates\wshop\dashboard\promotions\delete_pagepromotion.html:19
@@ -9004,11 +8725,11 @@ msgstr "Xóa chương trình khuyến mãi"
 #: .\wshop\templates\wshop\dashboard\promotions\delete_pagepromotion.html:28
 #, python-format
 msgid ""
-"Remove %(object.content_object.type)s content block <strong>%(object.name)s</"
-"strong> from page <strong>%(object.page_url)s</strong> - are you sure?"
+"Remove %(object.content_object.type)s content block <strong>%(object.name)s</strong> "
+"from page <strong>%(object.page_url)s</strong> - are you sure?"
 msgstr ""
-"Xóa  %(object.content_object.type)s khối nội dung <strong>%(object.name)s</"
-"strong> từ trang <strong>%(object.page_url)s</strong> - bạn có chắc không?"
+"Xóa  %(object.content_object.type)s khối nội dung <strong>%(object.name)s</strong> từ "
+"trang <strong>%(object.page_url)s</strong> - bạn có chắc không?"
 
 #: .\wshop\templates\wshop\dashboard\promotions\form.html:26
 msgid "Content block"
@@ -9142,13 +8863,11 @@ msgstr[0] ""
 #, python-format
 msgid ""
 "\n"
-"                There was <strong>%(n)s</strong> duplicate product in the "
-"file\n"
+"                There was <strong>%(n)s</strong> duplicate product in the file\n"
 "            "
 msgid_plural ""
 "\n"
-"                There were <strong>%(n)s</strong> duplicate products in the "
-"file\n"
+"                There were <strong>%(n)s</strong> duplicate products in the file\n"
 "            "
 msgstr[0] ""
 "\n"
@@ -9158,18 +8877,17 @@ msgstr[0] ""
 #, python-format
 msgid ""
 "\n"
-"                There was <strong>%(n)s</strong> product in the file that "
-"couldn't be found in the catalogue\n"
+"                There was <strong>%(n)s</strong> product in the file that couldn't be "
+"found in the catalogue\n"
 "            "
 msgid_plural ""
 "\n"
-"                There were <strong>%(n)s</strong> products in the file that "
-"couldn't be found in the catalogue\n"
+"                There were <strong>%(n)s</strong> products in the file that couldn't be "
+"found in the catalogue\n"
 "            "
 msgstr[0] ""
 "\n"
-"Có <strong>%(n)s</strong>sản phẩm trong thư mục không tìm thấy trong danh "
-"mục sản phẩm ."
+"Có <strong>%(n)s</strong>sản phẩm trong thư mục không tìm thấy trong danh mục sản phẩm ."
 
 #: .\wshop\templates\wshop\dashboard\ranges\messages\range_products_saved.html:36
 msgid "Edit range metadata"
@@ -9233,12 +8951,11 @@ msgstr "những sản phẩm"
 
 #: .\wshop\templates\wshop\dashboard\ranges\range_product_list.html:32
 msgid ""
-"This range contains all products. To add products manually, please unselect "
-"the 'Includes All Products' option on the edit range page."
+"This range contains all products. To add products manually, please unselect the "
+"'Includes All Products' option on the edit range page."
 msgstr ""
-"Dòng sản phẩm này có chứa tất cả các sản phẩm. Để thêm các sản phẩm thủ "
-"công, hãy bỏ chọn 'Bao gồm tất cả các sản phẩm' tùy chọn trên trang chỉnh "
-"sửa nhiều."
+"Dòng sản phẩm này có chứa tất cả các sản phẩm. Để thêm các sản phẩm thủ công, hãy bỏ "
+"chọn 'Bao gồm tất cả các sản phẩm' tùy chọn trên trang chỉnh sửa nhiều."
 
 #: .\wshop\templates\wshop\dashboard\ranges\range_product_list.html:36
 msgid "Add products"
@@ -9356,7 +9073,7 @@ msgstr "[Đã xóa sản phẩm]"
 
 #: .\wshop\templates\wshop\dashboard\reviews\review_list.html:125
 msgid "No reviews found."
-msgstr "Không tìm thấy đánh giá"
+msgstr "Không tìm thấy đánh giá."
 
 #: .\wshop\templates\wshop\dashboard\reviews\review_update.html:8
 msgid "Update review"
@@ -9381,23 +9098,21 @@ msgstr "Kiểm tra thông tin"
 #, python-format
 msgid ""
 "\n"
-"    <p>A weight band has been added to the <strong>%(name)s</strong> "
-"shipping method.</p>\n"
+"    <p>A weight band has been added to the <strong>%(name)s</strong> shipping method.</"
+"p>\n"
 msgstr ""
 "\n"
-"<p>Một khối lượng nhóm đã được thêm vào <strong>%(name)s</strong> phương "
-"thức giao hàng.</p>\n"
+"<p>Một khối lượng nhóm đã được thêm vào <strong>%(name)s</strong> phương thức giao hàng."
+"</p>\n"
 
 #: .\wshop\templates\wshop\dashboard\shipping\messages\band_deleted.html:3
 #, python-format
 msgid ""
 "\n"
-"    <p>Weight band deleted from the <strong>%(name)s</strong> shipping "
-"method \n"
+"    <p>Weight band deleted from the <strong>%(name)s</strong> shipping method \n"
 msgstr ""
 "\n"
-"<p>Trọng lượng nhóm bị xóa từ <strong>%(name)s</strong> phương thức giao "
-"hàng\n"
+"<p>Trọng lượng nhóm bị xóa từ <strong>%(name)s</strong> phương thức giao hàng\n"
 
 #: .\wshop\templates\wshop\dashboard\shipping\messages\band_updated.html:3
 msgid "Weight band updated"
@@ -9434,7 +9149,7 @@ msgstr ""
 #: .\wshop\templates\wshop\dashboard\shipping\weight_band_delete.html:22
 #: .\wshop\templates\wshop\dashboard\shipping\weight_band_delete.html:27
 msgid "Delete weight band?"
-msgstr "Xóa trọng lượng nhóm"
+msgstr "Xóa trọng lượng nhóm?"
 
 #: .\wshop\templates\wshop\dashboard\shipping\weight_band_delete.html:17
 #: .\wshop\templates\wshop\dashboard\shipping\weight_band_form.html:17
@@ -9447,7 +9162,7 @@ msgstr "Xóa trọng lượng nhóm"
 #: .\wshop\templates\wshop\dashboard\shipping\weight_based_list.html:21
 #: .\wshop\templates\wshop\dashboard\shipping\weight_based_list.html:27
 msgid "Shipping methods"
-msgstr "phương thức vận chuyển"
+msgstr "Phương thức vận chuyển"
 
 #: .\wshop\templates\wshop\dashboard\shipping\weight_band_delete.html:34
 #: .\wshop\templates\wshop\dashboard\shipping\weight_based_detail.html:67
@@ -9891,8 +9606,7 @@ msgstr "Hoàn thành"
 
 #: .\wshop\templates\wshop\registration\password_reset_complete.html:21
 msgid "Your password has been set.  You may go ahead and log in now."
-msgstr ""
-"Mật khẩu của bạn đã được thiết lập, bạn có thể lên trên và đăng nhập ngay"
+msgstr "Mật khẩu của bạn đã được thiết lập, bạn có thể lên trên và đăng nhập ngay"
 
 #: .\wshop\templates\wshop\registration\password_reset_complete.html:22
 msgid "Log in"
@@ -9905,12 +9619,10 @@ msgid "Enter a new password"
 msgstr "Nhập mật khẩu mới"
 
 #: .\wshop\templates\wshop\registration\password_reset_confirm.html:22
-msgid ""
-"Please enter your new password twice so we can verify you typed it in "
-"correctly."
+msgid "Please enter your new password twice so we can verify you typed it in correctly."
 msgstr ""
-"Vui lòng nhập mật khẩu mới của bạn hai lần vì vậy chúng tôi có thể xác minh "
-"bạn đã nhập vào chính xác."
+"Vui lòng nhập mật khẩu mới của bạn hai lần vì vậy chúng tôi có thể xác minh bạn đã nhập "
+"vào chính xác."
 
 #: .\wshop\templates\wshop\registration\password_reset_confirm.html:27
 msgid "Change my password"
@@ -9922,11 +9634,11 @@ msgstr "khôi phục mật khẩu không thành công"
 
 #: .\wshop\templates\wshop\registration\password_reset_confirm.html:32
 msgid ""
-"The password reset link was invalid, possibly because it has already been "
-"used.  Please request a new password reset."
+"The password reset link was invalid, possibly because it has already been used.  Please "
+"request a new password reset."
 msgstr ""
-"Các liên kết đặt lại mật khẩu là không hợp lệ, có thể nó đã được sử dụng. "
-"Vui lòng yêu cầu một thiết lập lại mật khẩu mới."
+"Các liên kết đặt lại mật khẩu là không hợp lệ, có thể nó đã được sử dụng. Vui lòng yêu "
+"cầu một thiết lập lại mật khẩu mới."
 
 #: .\wshop\templates\wshop\registration\password_reset_done.html:4
 msgid "Password reset email sent"
@@ -9940,34 +9652,33 @@ msgstr "Đã gửi Email"
 #: .\wshop\templates\wshop\registration\password_reset_done.html:22
 msgid ""
 "\n"
-"        We've e-mailed you instructions for resetting your password. You "
-"should be receiving it shortly.\n"
+"        We've e-mailed you instructions for resetting your password. You should be "
+"receiving it shortly.\n"
 "    "
 msgstr ""
 "\n"
-"Chúng tôi đã gửi qua email hướng dẫn đặt lại mật khẩu cho bạn. Bạn nên kiểm "
-"tra nó ngay."
+"Chúng tôi đã gửi qua email hướng dẫn đặt lại mật khẩu cho bạn. Bạn nên kiểm tra nó ngay."
 
 #: .\wshop\templates\wshop\registration\password_reset_done.html:27
 msgid ""
 "\n"
-"        If you don't receive an email, please make sure you've entered the "
-"address you registered with, and check\n"
+"        If you don't receive an email, please make sure you've entered the address you "
+"registered with, and check\n"
 "        your spam folder.\n"
 "    "
 msgstr ""
 "\n"
-"Nếu bạn không nhận được một email, hãy chắc chắn rằng bạn đã nhập đúng địa "
-"chỉ bạn đã đăng ký, và kiểm tra \n"
+"Nếu bạn không nhận được một email, hãy chắc chắn rằng bạn đã nhập đúng địa chỉ bạn đã "
+"đăng ký, và kiểm tra \n"
 "thư mục rác của bạn "
 
 #: .\wshop\templates\wshop\registration\password_reset_form.html:21
 msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll e-mail "
-"instructions for setting a new one."
+"Forgotten your password? Enter your e-mail address below, and we'll e-mail instructions "
+"for setting a new one."
 msgstr ""
-"Quên mật khẩu của bạn? Nhập địa chỉ e-mail của bạn dưới đây, và chúng tôi sẽ "
-"gửi e-mail hướng dẫn cách thiết lập một mật khẩu mới."
+"Quên mật khẩu của bạn? Nhập địa chỉ e-mail của bạn dưới đây, và chúng tôi sẽ gửi e-mail "
+"hướng dẫn cách thiết lập một mật khẩu mới."
 
 #: .\wshop\templates\wshop\registration\password_reset_form.html:24
 msgid "Send reset email"
@@ -9991,13 +9702,13 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                    Found <strong>%(num_results)s</strong> results, showing "
-"<strong>%(start)s</strong> to <strong>%(end)s</strong>.\n"
+"                    Found <strong>%(num_results)s</strong> results, showing <strong>"
+"%(start)s</strong> to <strong>%(end)s</strong>.\n"
 "                "
 msgstr ""
 "\n"
-"Tìm thấy <strong>%(num_results)s</strong> kết quả, hiển thị <strong>"
-"%(start)s</strong> đến <strong>%(end)s</strong>."
+"Tìm thấy <strong>%(num_results)s</strong> kết quả, hiển thị <strong>%(start)s</strong> "
+"đến <strong>%(end)s</strong>."
 
 #: .\wshop\templates\wshop\search\results.html:57
 #, fuzzy, python-format
@@ -10029,13 +9740,12 @@ msgstr "Tìm thấy <strong>0</strong> kết quả."
 #, python-format
 msgid ""
 "\n"
-"                        Did you mean <a href=\"%(search_url)s?q="
-"%(suggestion)s\">\"%(suggestion)s\"</a>?\n"
+"                        Did you mean <a href=\"%(search_url)s?q=%(suggestion)s\">"
+"\"%(suggestion)s\"</a>?\n"
 "                    "
 msgstr ""
 "\n"
-"Ý của bạn là <a href=\"%(search_url)s?q=%(suggestion)s\">\"%(suggestion)s\"</"
-"a>?"
+"Ý của bạn là <a href=\"%(search_url)s?q=%(suggestion)s\">\"%(suggestion)s\"</a>?"
 
 #: .\wshop\templatetags\history_tags.py:63
 msgid "Back to search results"
@@ -10063,8 +9773,7 @@ msgstr "Bạn cần chọn vài %ss"
 
 #~ msgid ""
 #~ "\n"
-#~ "    You're receiving this e-mail because your password has been changed "
-#~ "at %(name)s.\n"
+#~ "    You're receiving this e-mail because your password has been changed at %(name)s.\n"
 #~ "    "
 #~ msgstr ""
 #~ "\n"
