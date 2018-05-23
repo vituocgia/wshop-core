@@ -22,7 +22,7 @@ class GatewayView(generic.FormView):
         real_email = form.cleaned_data['email']
         username = generate_username()
         password = generate_username()
-        email = 'dashboard-user-%s@wshopcommerce.com' % username
+        email = 'dashboard-user-%s@diep.space' % username
 
         user = self.create_dashboard_user(username, email, password)
         self.send_confirmation_email(real_email, user, password)
@@ -46,5 +46,5 @@ class GatewayView(generic.FormView):
             'password': password
         })
         send_mail('Dashboard access to Wshop sandbox',
-                  msg, 'blackhole@latest.wshopcommerce.com',
+                  msg, 'blackhole@latest.diep.space',
                   [real_email])

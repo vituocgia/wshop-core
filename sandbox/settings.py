@@ -11,8 +11,8 @@ location = lambda x: os.path.join(
 DEBUG = env.bool('DEBUG', default=True)
 
 ALLOWED_HOSTS = [
-    'latest.wshopcommerce.com',
-    'master.wshopcommerce.com',
+    'latest.diep.space',
+    'master.diep.space',
     'localhost',
     '127.0.0.1',
 ]

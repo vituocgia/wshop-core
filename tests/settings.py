@@ -7,7 +7,7 @@ from wshop.defaults import *  # noqa
 location = lambda x: os.path.join(
     os.path.dirname(os.path.realpath(__file__)), x)
 
-ALLOWED_HOSTS = ['test', '.wshopcommerce.com']
+ALLOWED_HOSTS = ['test', '.diep.space']
 
 DATABASES = {
     'default': {

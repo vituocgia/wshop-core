@@ -109,7 +109,7 @@ good starting point for rapidly building elegant e-commerce sites.
     :target: https://github.com/vituocgia/wshop-core/raw/master/docs/images/screenshots/dashboard.png
 
 The sandbox site is also available to browse at
-https://latest.wshopcommerce.com.  Dashboard users can be created using `this
+https://latest.diep.space.  Dashboard users can be created using `this
 gateway page`_.
 
 The sandbox site can be set-up locally `in 5 commands`_.  Want to
@@ -259,12 +259,12 @@ http://diep.space/cases.html for an overview.
 
 Many more on the way.  If you use Wshop in production, please `let us know`_.
 
-.. _`let us know`: https://github.com/wshop-core/wshopcommerce.com/issues
+.. _`let us know`: https://github.com/wshop-core/diep.space/issues
 
 Looking for commercial support?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you are interested in having an Wshop project built for you, or for
-development of an existing Wshop site then please get in touch via `info@wshopcommerce.com`_.
+development of an existing Wshop site then please get in touch via `info@diep.space`_.
 
-.. _`info@wshopcommerce.com`: mailto:info@wshopcommerce.com
+.. _`info@diep.space`: mailto:info@diep.space
