@@ -72,27 +72,17 @@ Docs status:
 .. _`readthedocs.org`: http://readthedocs.org
 .. _`Continuous integration homepage`: http://travis-ci.org/#!/wshop-core/wshop-core
 .. _`travis-ci.org`: http://travis-ci.org/
-.. _`Twitter account for news and updates`: https://twitter.com/#!/django_wshop
 .. _`public logs`: https://botbot.me/freenode/wshop-core/
 .. _`wshop-core group`: https://groups.google.com/forum/?fromgroups#!forum/wshop-core
 .. _`wshop-core-jobs group`: https://groups.google.com/forum/?fromgroups#!forum/wshop-core-jobs
 .. _`PyPI page`: https://pypi.python.org/pypi/wshop-core/
 .. _`Transifex project`: https://www.transifex.com/projects/p/wshop-core/
-.. _`Slack`: https://slack.wshopcommerce.com/
 
 Core team:
 
-- `DiepDT`_ (Twitter `@codeinthehole`_)
-- `Maik Hoepfel`_ (Twitter `@maikhoepfel`_)
-- `Markus Bertheau`_
-- `Michael van Tellingen`_
+- `DiepDT`_ (Twitter `@dotiendiep`_)
 
-.. _`DiepDT`: https://github.com/codeinthehole
-.. _`@codeinthehole`: https://twitter.com/codeinthehole
-.. _`Maik Hoepfel`: https://github.com/maikhoepfel
-.. _`@maikhoepfel`: https://twitter.com/maikhoepfel
-.. _`Markus Bertheau`: https://github.com/mbertheau
-.. _`Michael van Tellingen`: https://github.com/mvantellingen
+.. _`DiepDT`: https://github.com/vituocgia
 
 Screenshots
 -----------
