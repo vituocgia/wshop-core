@@ -974,7 +974,7 @@ msgstr "Danh mục hàng hóa"
 
 #: .\wshop\apps\catalogue\abstract_models.py:246
 msgid "Product categories"
-msgstr "Những danh mục hàng hóa"
+msgstr "Danh mục hàng hóa"
 
 #: .\wshop\apps\catalogue\abstract_models.py:270
 msgid "Stand-alone product"
@@ -1277,7 +1277,7 @@ msgstr "Thuộc tính sản phẩm"
 #: .\wshop\templates\wshop\dashboard\catalogue\product_class_form.html:40
 #: .\wshop\templates\wshop\dashboard\catalogue\product_class_form.html:86
 msgid "Product attributes"
-msgstr "Những thuộc tính sản phẩm"
+msgstr "Thuộc tính sản phẩm"
 
 #: .\wshop\apps\catalogue\abstract_models.py:850
 msgid "Must be str or unicode"
@@ -1366,7 +1366,7 @@ msgstr "Giá trị thuộc tính sản phẩm "
 
 #: .\wshop\apps\catalogue\abstract_models.py:995
 msgid "Product attribute values"
-msgstr "Những giá trị thuộc tính sản phẩm "
+msgstr "Giá trị thuộc tính sản phẩm "
 
 #: .\wshop\apps\catalogue\abstract_models.py:1064
 msgid "Attribute option group"
@@ -1374,7 +1374,7 @@ msgstr "Thuộc tính nhóm sản phẩm "
 
 #: .\wshop\apps\catalogue\abstract_models.py:1065
 msgid "Attribute option groups"
-msgstr "Những giá trị nhóm sản phẩm "
+msgstr "Giá trị nhóm sản phẩm "
 
 #: .\wshop\apps\catalogue\abstract_models.py:1083
 msgid "Group"
@@ -3755,7 +3755,7 @@ msgstr "Có điều kiện"
 
 #: .\wshop\apps\offer\abstract_models.py:224
 msgid "Conditional offers"
-msgstr "Có những điều kiện"
+msgstr "Điều kiện offer"
 
 #: .\wshop\apps\offer\abstract_models.py:246 .\wshop\apps\voucher\abstract_models.py:178
 msgid "End date should be later than start date"
@@ -4539,7 +4539,7 @@ msgstr "Đối tác hoàn thành"
 
 #: .\wshop\apps\partner\abstract_models.py:77
 msgid "Fulfillment partners"
-msgstr "Các đối tác hoàn thành"
+msgstr "Các đối tác Fulfillment"
 
 #: .\wshop\apps\partner\abstract_models.py:127
 msgid "Price (retail)"

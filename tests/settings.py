@@ -114,7 +114,7 @@ USE_TZ = 1
 APPEND_SLASH = True
 DDF_DEFAULT_DATA_FIXTURE = 'tests.dynamic_fixtures.WshopDynamicDataFixtureClass'
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
-LANGUAGE_CODE = 'en-gb'
+LANGUAGE_CODE = 'vi'
 
 WSHOP_INITIAL_ORDER_STATUS = 'A'
 WSHOP_ORDER_STATUS_PIPELINE = {'A': ('B',), 'B': ()}
